@@ -1,18 +1,18 @@
 ! Blurb file created by Inform build 6M62
 
-status "/Users/csomlak17/Desktop/Inform Resources/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/csomlak17/Documents/Grandma's House.inform/Build/StatusCblorb.html"
+status "/Users/csomlak17/Desktop/Inform Resources/Inform.app/Contents/Resources/Internal/Miscellany/CblorbModel.html" "/Users/csomlak17/Desktop/Inform Resources/Grandma-sHouse/Grandma's House.inform/Build/StatusCblorb.html"
 
 
 ! Identification
 
-project folder "/Users/csomlak17/Documents/Grandma's House.inform"
-release to "/Users/csomlak17/Documents/Grandma's House.materials/Release"
+project folder "/Users/csomlak17/Desktop/Inform Resources/Grandma-sHouse/Grandma's House.inform"
+release to "/Users/csomlak17/Desktop/Inform Resources/Grandma-sHouse/Grandma's House.materials/Release"
 
 ! Blorb instructions
 
 storyfile leafname "Grandma's House.gblorb"
-storyfile "/Users/csomlak17/Documents/Grandma's House.inform/Build/output.ulx" include
-ifiction "/Users/csomlak17/Documents/Grandma's House.inform/Metadata.iFiction" include
+storyfile "/Users/csomlak17/Desktop/Inform Resources/Grandma-sHouse/Grandma's House.inform/Build/output.ulx" include
+ifiction "/Users/csomlak17/Desktop/Inform Resources/Grandma-sHouse/Grandma's House.inform/Metadata.iFiction" include
 cover "/Users/csomlak17/Desktop/Inform Resources/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
 picture 1 "/Users/csomlak17/Desktop/Inform Resources/Inform.app/Contents/Resources/Internal/Miscellany/Cover.jpg"
 
