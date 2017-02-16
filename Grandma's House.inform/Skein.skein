@@ -9,17 +9,19 @@
 
 Grandma's House
 An Interactive Fiction by Calien Somlak
-Release 1 / Serial number 170214 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170216 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Bedroom
 Completely dark, you lie on your bed. The wall arcross from you has a locked orange door, bloking your exit. To your left is a bedside table with a stapler and broken bike horn on it. Some records lie in the corner next to the window. You can feel the despair in the room taking shape as an imaginary cookie that is out of reach. Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key...
 
-You can see Stapler, Broken bike horn, Window., Despair, Records and Orange door here.
+You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1069"></child>
             <child nodeId="node-1066"></child>
+            <child nodeId="node-1075"></child>
+            <child nodeId="node-1078"></child>
             <child nodeId="node-1064"></child>
             <child nodeId="node-1059"></child>
             <child nodeId="node-1054"></child>
@@ -589,6 +591,239 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <item nodeId="node-1065">
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">You feel around under the bed with your disc shard ready, and you feel it... the Spare Key! You now have Spare!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1078">
+        <command xml:space="preserve">open window</command>
+        <result xml:space="preserve">You open Window.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1079"></child>
+        </children>
+    </item>
+    <item nodeId="node-1079">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Landing Zone
+You can see Window here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1086"></child>
+            <child nodeId="node-1080"></child>
+        </children>
+    </item>
+    <item nodeId="node-1080">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Bedroom
+Completely dark, you lie on your bed. The wall arcross from you has a locked orange door, bloking your exit. To your left is a bedside table with a stapler and broken bike horn on it. Some records lie in the corner next to the window. You can feel the despair in the room taking shape as an imaginary cookie that is out of reach. Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key...
+
+You can see Window, Orange door, Stapler, Broken bike horn, Despair and Records here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1081"></child>
+        </children>
+    </item>
+    <item nodeId="node-1081">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Landing Zone
+You can see Window here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1082"></child>
+        </children>
+    </item>
+    <item nodeId="node-1082">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1083"></child>
+        </children>
+    </item>
+    <item nodeId="node-1083">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1086">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Light Zone
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1087"></child>
+        </children>
+    </item>
+    <item nodeId="node-1087">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Front Porch
+You can see Outside door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1088"></child>
+            <child nodeId="node-1103"></child>
+        </children>
+    </item>
+    <item nodeId="node-1103">
+        <command xml:space="preserve">open outside door</command>
+        <result xml:space="preserve">You open Outside door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1104"></child>
+        </children>
+    </item>
+    <item nodeId="node-1104">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Kitchen
+You can see Outside door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1088">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1089"></child>
+        </children>
+    </item>
+    <item nodeId="node-1089">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1090"></child>
+        </children>
+    </item>
+    <item nodeId="node-1090">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1091"></child>
+        </children>
+    </item>
+    <item nodeId="node-1091">
+        <command xml:space="preserve">open outside door</command>
+        <result xml:space="preserve">You must name something more substantial.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1092"></child>
+        </children>
+    </item>
+    <item nodeId="node-1092">
+        <command xml:space="preserve">open outside</command>
+        <result xml:space="preserve">You must name something more substantial.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1093"></child>
+        </children>
+    </item>
+    <item nodeId="node-1093">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Light Zone
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1094"></child>
+        </children>
+    </item>
+    <item nodeId="node-1094">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Landing Zone
+You can see Window here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1095"></child>
+        </children>
+    </item>
+    <item nodeId="node-1095">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Woods
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1096"></child>
+        </children>
+    </item>
+    <item nodeId="node-1096">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Landing Zone
+You can see Window here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1097"></child>
+        </children>
+    </item>
+    <item nodeId="node-1097">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Light Zone
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1098"></child>
+        </children>
+    </item>
+    <item nodeId="node-1098">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Front Porch
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1075">
+        <command xml:space="preserve">open glass</command>
+        <result xml:space="preserve">You open Window.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1076"></child>
+        </children>
+    </item>
+    <item nodeId="node-1076">
+        <command xml:space="preserve">open window</command>
+        <result xml:space="preserve">That's already open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1077"></child>
+        </children>
+    </item>
+    <item nodeId="node-1077">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Landing Zone
+You can see Window here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

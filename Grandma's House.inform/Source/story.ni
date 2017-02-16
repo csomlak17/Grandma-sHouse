@@ -12,7 +12,7 @@ Broken bike horn is a thing in bedroom. The description is "Sorry, this is for t
 
 Sheets is a thing in bedroom. Sheets are undescribed. 
 
-Glass is a door. Glass is east of bedroom. The printed name of glass is "Window." The description is "Closed with a crancking handle, but it's stuck, you probably need plyers in order to loosen it."
+Glass is a door. Glass is east of bedroom. The printed name of glass is "Window". The description is "Closed with a crancking handle, but it's stuck, you probably need plyers in order to loosen it."
 Understand "Window" as Glass.
 
 Handle is scenery. The description is "Just a spining stuck handle."
@@ -54,8 +54,21 @@ Instead of doing something to sheets:
 
 [Next rooms:]
 
+Hallway is a room. Hallway is west of Orange. 
 
+Grandmas entrance is a room. Grandmas entrence is south of Hallway.
 
+Landing Zone is a room. Landing zone is east of Glass. 
 
+Woods is a room. Woods is east of Landing zone. 
+
+Light Zone is a room. Light zone is north of Landing zone. 
+
+Front Porch is a room. Front Porch is north of Light Zone. 
+
+Kitchen is a room. Kitchen is west of of Green. 
+
+Green is a door. Green is west of Front Porch. The printed name is "Outside door". 
+Understand "Outside door" as Green. 
 
 
