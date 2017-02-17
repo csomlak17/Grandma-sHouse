@@ -1,5 +1,18 @@
 "Grandma's House" by Calien Somlak
 
+[Exits from Get that Cat]
+When play begins: 
+    now left hand status line is "Exits: [exit list]"; 
+    now right hand status line is "[location]".
+To say exit list: 
+	let place be location; 
+	repeat with way running through directions: 
+		let place be the room way from the location; 
+		if place is a room, say " [way]".
+		
+[Disable take all from Tonic]
+Rule for deciding whether all includes something: it does not.
+
 Bedroom is a room. The description of Bedroom is "Completely dark, you lie on your bed. The wall arcross from you has a locked orange door, bloking your exit. To your left is a bedside table with a stapler and broken bike horn on it. Some records lie in the corner next to the window. You can feel the despair in the room taking shape as an imaginary cookie that is out of reach. Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key..."
 
 Bed is scenery in bedroom. The description is "It's a stiff bed with long sheets hanging down to the floor".
@@ -10,9 +23,9 @@ Stapler is a thing in bedroom. The description is "Sorry, this is for the next p
 
 Broken bike horn is a thing in bedroom. The description is "Sorry, this is for the next puzzle."
 
-Sheets is a thing in bedroom. Sheets are undescribed. 
+Sheets is a thing in bedroom. Sheets are undescribed. The description is "These long sheets make it easy to hide something, of course to find anything you'd have to lift the sheets...".
 
-Glass is a door. Glass is east of bedroom. The printed name of glass is "Window". The description is "Closed with a crancking handle, but it's stuck, you probably need plyers in order to loosen it."
+Glass is a door. Glass is down of bedroom. The printed name of glass is "Window". The description is "Closed with a crancking handle, but it's stuck, you probably need plyers in order to loosen it."
 Understand "Window" as Glass.
 
 Handle is scenery. The description is "Just a spining stuck handle."
@@ -42,16 +55,17 @@ Instead of attacking records:
 	
 Understand "lift [something]" as taking. 
 
-Instead of doing something to sheets:
-	if examining sheets:
-		say "These long sheets make it easy to hide something, of course to find anything you'd have to lift the sheets...";
+Instead of taking sheets:
+	if player has spare:
+		say "Cough... cough... These sheets our even dustier than I thought!";
+		now player has sheets;
 	otherwise:
 		if player has broken disk:
 			say "You feel around under the bed with your disc shard ready, and you feel it... the Spare Key! You now have the spare key!";
 			now player has spare;
 		otherwise:
-			say "I would have to feel around for a key, and I'm too scared to put my hand underneath this dark bed without something to kill any bugs that might jump out.".
-
+			say "I would have to feel around for a key, and I'm too scared to put my hand underneath this dark bed without something to kill any bugs that might jump out.";
+	
 [Next rooms:]
 
 Hallway is a room. Hallway is west of Orange. 
