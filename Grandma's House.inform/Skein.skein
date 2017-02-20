@@ -28,6 +28,7 @@ You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records 
             <child nodeId="node-1069"></child>
             <child nodeId="node-1064"></child>
             <child nodeId="node-1057"></child>
+            <child nodeId="node-1709"></child>
             <child nodeId="node-1051"></child>
             <child nodeId="node-1047"></child>
             <child nodeId="node-1040"></child>
@@ -670,33 +671,112 @@ You unlock Orange door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1503"></child>
+        <children><child nodeId="node-1780"></child>
+            <child nodeId="node-1503"></child>
         </children>
     </item>
     <item nodeId="node-1503">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Hallway
-There are windows on the side of the Hallway opposite of your door illumanting the objects in the room. There's a small wooden stool grandma stands on to clean the windows since their to tall for her. There's some old medals hanging on the wall my the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door to the stairs.
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room. There's a small wooden stool grandma stands on to clean the windows since their to tall for her. There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door to the stairs.
 
-You can see Orange door here.
+You can see Orange door, Wooden stool and Lamp here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1504"></child>
+            <child nodeId="node-1758"></child>
+            <child nodeId="node-1794"></child>
+            <child nodeId="node-1769"></child>
+            <child nodeId="node-1753"></child>
         </children>
+    </item>
+    <item nodeId="node-1753">
+        <command xml:space="preserve">turn on lamp</command>
+        <result xml:space="preserve">It isn't something you can switch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1776"></child>
+        </children>
+    </item>
+    <item nodeId="node-1776">
+        <command xml:space="preserve">switch lamp</command>
+        <result xml:space="preserve">It isn't something you can switch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1769">
+        <command xml:space="preserve">turn on lamb</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1770"></child>
+        </children>
+    </item>
+    <item nodeId="node-1770">
+        <command xml:space="preserve">turn on lamp</command>
+        <result xml:space="preserve">It isn't something you can switch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1794">
+        <command xml:space="preserve">take lamp</command>
+        <result xml:space="preserve">That's fixed in place.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1795"></child>
+        </children>
+    </item>
+    <item nodeId="node-1795">
+        <command xml:space="preserve">switch lamp</command>
+        <result xml:space="preserve">It isn't something you can switch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1808"></child>
+        </children>
+    </item>
+    <item nodeId="node-1808">
+        <command xml:space="preserve">turn on lamp</command>
+        <result xml:space="preserve">It isn't something you can switch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1758">
+        <command xml:space="preserve">switch lamp</command>
+        <result xml:space="preserve">It isn't something you can switch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1759"></child>
+        </children>
+    </item>
+    <item nodeId="node-1759">
+        <command xml:space="preserve">turn on lamp</command>
+        <result xml:space="preserve">It isn't something you can switch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1504">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Grandmas entrance
-Still part of the hallway you see the sillouette of a wrench lying against the wall on the groud on the corner between the end of the line of windows and grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys.
+Still part of the hallway you see the sillouette of a wrench lying against the wall on the groud on the corner between the end of the line of hallway windows and grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys.
 
 You can see a wrench, Spare bell and Rubber duck here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1505"></child>
+        <children><child nodeId="node-1707"></child>
+            <child nodeId="node-1505"></child>
         </children>
     </item>
     <item nodeId="node-1505">
@@ -779,6 +859,64 @@ You can see Window here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
+    <item nodeId="node-1707">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room. There's a small wooden stool grandma stands on to clean the windows since their to tall for her. There's some old medals hanging on the wall my the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door to the stairs.
+
+You can see Orange door and Wooden stool here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1708"></child>
+        </children>
+    </item>
+    <item nodeId="node-1708">
+        <command xml:space="preserve">stand on wooden stool</command>
+        <result xml:space="preserve">That's not something you can stand on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1780">
+        <command xml:space="preserve">turn on lamp</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1781"></child>
+        </children>
+    </item>
+    <item nodeId="node-1781">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room. There's a small wooden stool grandma stands on to clean the windows since their to tall for her. There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door to the stairs.
+
+You can see Orange door, Wooden stool and Lamp here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1782"></child>
+        </children>
+    </item>
+    <item nodeId="node-1782">
+        <command xml:space="preserve">turn on lamp</command>
+        <result xml:space="preserve">It isn't something you can switch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1789"></child>
+        </children>
+    </item>
+    <item nodeId="node-1789">
+        <command xml:space="preserve">turn on lamp</command>
+        <result xml:space="preserve">It isn't something you can switch.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
     <item nodeId="node-1054">
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">Cough... cough... These sheets our even dustier than I thought!
@@ -810,7 +948,8 @@ You can see Window here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1461"></child>
+        <children><child nodeId="node-1719"></child>
+            <child nodeId="node-1461"></child>
         </children>
     </item>
     <item nodeId="node-1461">
@@ -875,6 +1014,192 @@ Grandmas entrence
     <item nodeId="node-1467">
         <command xml:space="preserve">take wrench</command>
         <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1719">
+        <command xml:space="preserve">unlock orange</command>
+        <result xml:space="preserve">(with spare key)
+You unlock Orange door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1720"></child>
+        </children>
+    </item>
+    <item nodeId="node-1720">
+        <command xml:space="preserve">open orange</command>
+        <result xml:space="preserve">You open Orange door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1721"></child>
+        </children>
+    </item>
+    <item nodeId="node-1721">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room. There's a small wooden stool grandma stands on to clean the windows since their to tall for her. There's some old medals hanging on the wall my the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door to the stairs.
+
+You can see Orange door and Wooden stool here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1722"></child>
+        </children>
+    </item>
+    <item nodeId="node-1722">
+        <command xml:space="preserve">stand stool</command>
+        <result xml:space="preserve">I only understood you as far as wanting to stand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1723"></child>
+        </children>
+    </item>
+    <item nodeId="node-1723">
+        <command xml:space="preserve">stand on wooden stool</command>
+        <result xml:space="preserve">That's not something you can stand on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1724"></child>
+        </children>
+    </item>
+    <item nodeId="node-1724">
+        <command xml:space="preserve">stand on stool</command>
+        <result xml:space="preserve">That's not something you can stand on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1725"></child>
+        </children>
+    </item>
+    <item nodeId="node-1725">
+        <command xml:space="preserve">get in stool</command>
+        <result xml:space="preserve">That's not something you can enter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1726"></child>
+        </children>
+    </item>
+    <item nodeId="node-1726">
+        <command xml:space="preserve">enter stool</command>
+        <result xml:space="preserve">That's not something you can enter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1727"></child>
+        </children>
+    </item>
+    <item nodeId="node-1727">
+        <command xml:space="preserve">get on stool</command>
+        <result xml:space="preserve">That's not something you can enter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1728"></child>
+        </children>
+    </item>
+    <item nodeId="node-1728">
+        <command xml:space="preserve">get on stool</command>
+        <result xml:space="preserve">That's not something you can enter.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1729"></child>
+        </children>
+    </item>
+    <item nodeId="node-1729">
+        <command xml:space="preserve">take stool</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1743"></child>
+        </children>
+    </item>
+    <item nodeId="node-1743">
+        <command xml:space="preserve">drop stool</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1709">
+        <command xml:space="preserve">take spar</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1710"></child>
+        </children>
+    </item>
+    <item nodeId="node-1710">
+        <command xml:space="preserve">take spare</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1711"></child>
+        </children>
+    </item>
+    <item nodeId="node-1711">
+        <command xml:space="preserve">unlock orange</command>
+        <result xml:space="preserve">(with spare key)
+You unlock Orange door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1712"></child>
+        </children>
+    </item>
+    <item nodeId="node-1712">
+        <command xml:space="preserve">open orange</command>
+        <result xml:space="preserve">You open Orange door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1713"></child>
+        </children>
+    </item>
+    <item nodeId="node-1713">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room. There's a small wooden stool grandma stands on to clean the windows since their to tall for her. There's some old medals hanging on the wall my the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door to the stairs.
+
+You can see Orange door and Wooden stool here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1714"></child>
+        </children>
+    </item>
+    <item nodeId="node-1714">
+        <command xml:space="preserve">stand on wooden stool</command>
+        <result xml:space="preserve">That's not something you can stand on.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1715"></child>
+        </children>
+    </item>
+    <item nodeId="node-1715">
+        <command xml:space="preserve">stand stool</command>
+        <result xml:space="preserve">I only understood you as far as wanting to stand.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1716"></child>
+        </children>
+    </item>
+    <item nodeId="node-1716">
+        <command xml:space="preserve">stand wooden stool</command>
+        <result xml:space="preserve">I only understood you as far as wanting to stand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

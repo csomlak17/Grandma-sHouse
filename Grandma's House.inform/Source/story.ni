@@ -71,12 +71,36 @@ Instead of taking sheets:
 
 [Next rooms:]
 
-Hallway is a room. Hallway is west of Orange. The description is "There are windows on the side of the Hallway opposite of your door illumanting the objects in the room. There's a small wooden stool grandma stands on to clean the windows since their to tall for her. There's some old medals hanging on the wall my the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door to the stairs."
+Hallway is a room. Hallway is west of Orange. The description is "There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room. There's a small wooden stool grandma stands on to clean the windows since their to tall for her. There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!"
+
+Wooden stool is a thing in Hallway. The description is "Small wooden stool. It can fold in on itself so you can carry it around. Pretty nice!" 
+Understand "stool" as wooden stool.
+
+Marble is scenery in hallway. The description is "Nice old marble table, nothing much.".
+Understand "table" as Marble.
+
+Lamp is a thing in Hallway. Lamp is fixed in place. The description is "Heavy metal lamp with a switch on the top. It's a really bright lamp, the light will probably leak through to grandma's room if you try and turn it on, so don't."
+Understand "turn on [something]" as switch. Switch is an action applying to things.
+Instead of switch lamp:
+	say "You turn on the light, ignoring my advice like an idiot and grandma wakes up. Maybe you'll trust me more next time.";
+	end the story finally.
+	
+Medals is a thing in Hallway. The description is "A bunch of old medals. The long neck straps seem good for tying down things.".
+
+Medal is a thing in Hallway. Medal is undescribed. 
+
+Instead of taking Medals:
+	say "You, scared that grabbing to many could make extra noise grab the first medal that you touch on the wall.";
+	now player has medal;
+	remove medal from play.
+		
+Halldows are scenery in Hallway. The printed name is "Hallway windows".The description is "Tall windows. They're never opened and are really dusty."
+Understand "Hallway windows" as Halldows.
 
 Stairs is scenery in Hallway. The printed name is "Hallway door". "Dang it I really wanted to go down stairs this way, I gess I'll have to find another way. What could I use to get downstairs?"
 Understand "Hallway door" as stairs.
 
-Grandmas entrance is a room. Grandmas entrance is south of Hallway. The description of grandmas entrance is "Still part of the hallway you see the sillouette of a wrench lying against the wall on the groud on the corner between the end of the line of windows and grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys."
+Grandmas entrance is a room. Grandmas entrance is south of Hallway. The description of grandmas entrance is "Still part of the hallway you see the sillouette of a wrench lying against the wall on the groud on the corner between the end of the line of hallway windows and grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys."
 
 Spare bell is a thing in Grandmas entrance. The description of spare bell is "I heard the cat playing with it earlier. It was prettly loud so I wouldn't go near it if I were you.".
 Understand "bell" as spare bell. 
