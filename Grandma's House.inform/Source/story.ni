@@ -1,6 +1,6 @@
 "Grandma's House" by Calien Somlak
 
-The description of the player is "You are a small seven year old who has one desire: cookies. You have orange curly hair and are pretty coordinated".
+The description of the player is "You are a small ten year old who has one desire: cookies. You have orange curly hair and are pretty coordinated".
 
 [Exits from Get that Cat]
 When play begins: 
@@ -19,11 +19,12 @@ Bedroom is a room. The description of Bedroom is "Completely dark, you lie on yo
 
 Bed is scenery in bedroom. The description is "It's a stiff bed with long sheets hanging down to the floor".
 
-Bedside tabel is scenery in bedroom. The description is "Sorry, this is for the next puzzle."
+Bedside table is scenery in bedroom. The description is "This table seems really stury, so sturdy you could hang off of it."
+Understand "beside table's legs" as bedside table.
 
-Stapler is a thing in bedroom. The description is "Sorry, this is for the next puzzle."
+Stapler is a thing in bedroom. The description is "Seems like it could be good at hanging things up."
 
-Broken bike horn is a thing in bedroom. The description is "Sorry, this is for the next puzzle."
+Broken bike horn is a thing in bedroom. The description is "The ringer is broken, however it seems like it could still be attached to any poles about as thick as the bedside table's legs."
 
 Sheets is a thing in bedroom. Sheets are undescribed. The description is "These long sheets make it easy to hide something, of course to find anything you'd have to lift the sheets...".
 
@@ -67,8 +68,65 @@ Instead of taking sheets:
 			say "You feel around under the bed with your disc shard ready, and you feel it... the Spare Key! You now have the spare key!";
 			now player has spare;
 		otherwise:
-			say "I would have to feel around for a key, and I'm too scared to put my hand underneath this dark bed without something to kill any bugs that might jump out.";
+			say "I would have to feel around for a key, and I'm too scared to put my hand underneath this dark bed without something to kill any bugs that might jump out.".
+			
+[The combining action from Tonic.]
+Understand "combine [something] to [something]" as combining it with.
+Combining it with is an action applying to two things.
+[attaching doesn't seem to work]
 
+[The line below tells Inform7 that combining produces something. From Tonic.]
+The combining it with action has an object called the Contraption.
+
+Setting action variables for combining something with something: 
+	let X be a list of objects;
+	add the noun to X;
+	add the second noun to X;
+	sort X; 
+	repeat through the Table of ropes: 
+		let Y be the parts list entry; 
+		sort Y; 
+		if X is Y: 
+			now the Contraption is the results entry.
+
+[if there is no match for the combination of things, there is no result for the combining, so STOP the action from Tonic.]
+Check combining it with:
+	if Contraption is nothing:
+		say "You can't combine [the noun] and [the second noun] into anything useful.[line break]Try another combination of things.";
+		stop the action.
+
+[If action is not stopped, continue to… From tonic]
+Carry out combining it with: 
+	say "You fuse together [the noun] and [the second noun].";
+	remove the noun from play;
+	remove the second noun from play;
+	move the Contraption to location;
+	say "You have made [contraption]!"
+	
+Table of Ropes
+Parts List	Results
+{Broken bike horn, bedside table}	Hook
+{Hook, Medal}	Hanger
+{Hanger, sheets}	Homemade rope
+
+
+Hook is an object. The description is "Now you've made a hook that you can tie things to. This will be super good for climbing out the window.".
+
+Hanger is an object. The description is "Great now you have a big enough loop to attach all your sheets to!"
+
+Homemade rope is an object. The description is "Just like in the movies you have made your own escape line! Good Job!".
+
+Instead of going down:
+	if Glass is closed:
+		say "You gotta open the window before you can get down there! I know the crank is tight, but can't you find a wrench or something?";
+	otherwise:
+		if Homemade rope is in bedroom:
+			say "You swing down the outside of the house, feeling the cool night breeze softly landing on the grass outside.";
+			now player is in Landing zone;
+		otherwise:
+			say "You're gona kill yourself kid! Haven't you seen the movies, at least attach the rope to something and slide down on that.".
+		
+		
 [Next rooms:]
 
 Hallway is a room. Hallway is west of Orange. The description is "There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room. There's a small wooden stool grandma stands on to clean the windows since their to tall for her. There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!"
@@ -79,9 +137,10 @@ Understand "stool" as wooden stool.
 Marble is scenery in hallway. The description is "Nice old marble table, nothing much.".
 Understand "table" as Marble.
 
-Lamp is a thing in Hallway. Lamp is fixed in place. The description is "Heavy metal lamp with a switch on the top. It's a really bright lamp, the light will probably leak through to grandma's room if you try and turn it on, so don't."
-Understand "turn on [something]" as switch. Switch is an action applying to things.
-Instead of switch lamp:
+
+
+Lamp is a device in Hallway. Lamp is fixed in place. The description is "Heavy metal lamp with a switch on the top. It's a really bright lamp, the light will probably leak through to grandma's room if you try and turn it on, so don't."
+Instead of switching on lamp:
 	say "You turn on the light, ignoring my advice like an idiot and grandma wakes up. Maybe you'll trust me more next time.";
 	end the story finally.
 	
@@ -90,9 +149,9 @@ Medals is a thing in Hallway. The description is "A bunch of old medals. The lon
 Medal is a thing in Hallway. Medal is undescribed. 
 
 Instead of taking Medals:
-	say "You, scared that grabbing to many could make extra noise grab the first medal that you touch on the wall.";
+	say "You, scared that grabbing to many could make extra noise grab the first medal that you touch on the wall. You now have a medal.";
 	now player has medal;
-	remove medal from play.
+	remove medals from play.
 		
 Halldows are scenery in Hallway. The printed name is "Hallway windows".The description is "Tall windows. They're never opened and are really dusty."
 Understand "Hallway windows" as Halldows.
