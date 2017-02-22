@@ -1,5 +1,7 @@
 "Grandma's House" by Calien Somlak
 
+When play begins: say "You are a small ten year old having a sleep over at grandmas house. You helped her make homemade chocolate cookies during the day and couldn't get enough of them after dinner. Of course bed time is way to early, and you just had cookies so you lay in your bed awake, wondering about the cookies down stairs. Is there any way you could get to them?"
+
 The description of the player is "You are a small ten year old who has one desire: cookies. You have orange curly hair and are pretty coordinated".
 
 [Exits from Get that Cat]
@@ -15,7 +17,7 @@ To say exit list:
 [Disable take all from Tonic]
 Rule for deciding whether all includes something: it does not.
 
-Bedroom is a room. The description of Bedroom is "Completely dark, you lie on your bed. The wall arcross from you has a locked orange door, bloking your exit. To your left is a bedside table with a stapler and broken bike horn on it. Some records lie in the corner next to the window. You can feel the despair in the room taking shape as an imaginary cookie that is out of reach. Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key..."
+Bedroom is a room. The description of Bedroom is "Completely dark, you lie on your bed. The wall arcross from you has an orange door. To your left is a bedside table [if player is not carrying stapler] with a stapler on it. [end if] [if player is not carrying broken bike horn] There is also a broken bike horn. [end if] [if records is visible] Some records lie in the corner next to the window. [end if] You can feel the despair in the room taking shape as an imaginary cookie that is out of reach. [if player is not carrying spare] Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key..."
 
 Bed is scenery in bedroom. The description is "It's a stiff bed with long sheets hanging down to the floor".
 
@@ -24,7 +26,7 @@ Understand "beside table's legs" as bedside table.
 
 Stapler is a thing in bedroom. The description is "Seems like it could be good at hanging things up."
 
-Broken bike horn is a thing in bedroom. The description is "The ringer is broken, however it seems like it could still be attached to any poles about as thick as the bedside table's legs."
+Broken bike horn is a thing in bedroom. The description is "The ringer is broken, however it seems like it could still be attached to any poles about as thick as the bedside table's legs with the comand combine."
 
 Sheets is a thing in bedroom. Sheets are undescribed. The description is "These long sheets make it easy to hide something, of course to find anything you'd have to lift the sheets...".
 
@@ -91,7 +93,7 @@ Setting action variables for combining something with something:
 [if there is no match for the combination of things, there is no result for the combining, so STOP the action from Tonic.]
 Check combining it with:
 	if Contraption is nothing:
-		say "You can't attach [the noun] and [the second noun] into anything useful.[line break]Try another combination of things.";
+		say "You can't combine [the noun] and [the second noun] into anything useful.[line break]Try another combination of things.";
 		stop the action.
 
 [If action is not stopped, continue to… From tonic]
@@ -108,7 +110,7 @@ Parts List	Results
 {Hook, Medal}	Hanger
 {Hanger, sheets}	Homemade rope
 
-Hook is an object. The description is "Now you've made a hook that you can tie things to. This will be super good for climbing out the window. The only problem is you can't attach something as big as a bed sheet to this make shift hook.".
+Hook is an object. The description is "Now you've made a hook that you can tie things to. This will be super good for climbing out the window. The only problem is you can't attach something as big as a bed sheet to this make shift hook, you have to combine something else to the hook in order to attach your sheets.".
 
 Hanger is an object. The description is "Great now you have a big enough loop to attach all your sheets to!"
 
@@ -175,7 +177,7 @@ The wrench unlocks the stairs. The wrench is in Grandmas entrance. The descripti
 
 
 [Rooms for last puzzle]
-Landing Zone is a room. Landing zone is east of Glass. 
+Landing Zone is a room. Landing zone is east of Glass. The description is "You are now outside at, there is a cool breeze and moonlight illuminating the grass."
 
 Woods is a room. Woods is east of Landing zone. 
 

@@ -7,12 +7,14 @@
         <result xml:space="preserve">
 
 
+You are a small ten year old having a sleep over at grandmas house. You helped her make homemade chocolate cookies during the day and couldn't get enough of them after dinner. Of course bed time is way to early, and you just had cookies so you lay in your bed awake, wondering about the cookies down stairs. Is there any way you could get to them?
+
 Grandma's House
 An Interactive Fiction by Calien Somlak
 Release 1 / Serial number 170221 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Bedroom
-Completely dark, you lie on your bed. The wall arcross from you has a locked orange door, bloking your exit. To your left is a bedside table with a stapler and broken bike horn on it. Some records lie in the corner next to the window. You can feel the despair in the room taking shape as an imaginary cookie that is out of reach. Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key...
+Completely dark, you lie on your bed. The wall arcross from you has an orange door. To your left is a bedside table  with a stapler on it .  There is also a broken bike horn .  Some records lie in the corner next to the window.  You can feel the despair in the room taking shape as an imaginary cookie that is out of reach.  Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key...
 
 You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records here.
 
@@ -2152,7 +2154,18 @@ You have made Hook!
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1193"></child>
+            <child nodeId="node-1793"></child>
         </children>
+    </item>
+    <item nodeId="node-1793">
+        <command xml:space="preserve">l</command>
+        <result xml:space="preserve">Bedroom
+Completely dark, you lie on your bed. The wall arcross from you has an orange door. To your left is a bedside table  with a stapler on it .  There is also a broken bike horn .  You can feel the despair in the room taking shape as an imaginary cookie that is out of reach.  Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key...
+
+You can see Orange door, Window, Stapler, Broken bike horn and Despair here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1193">
         <command xml:space="preserve">break reords</command>
