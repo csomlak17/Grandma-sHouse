@@ -18,9 +18,11 @@ You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1202"></child>
+        <children><child nodeId="node-1451"></child>
+            <child nodeId="node-1202"></child>
             <child nodeId="node-1196"></child>
             <child nodeId="node-1192"></child>
+            <child nodeId="node-1449"></child>
             <child nodeId="node-1189"></child>
             <child nodeId="node-1251"></child>
             <child nodeId="node-1186"></child>
@@ -692,6 +694,7 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
         <children><child nodeId="node-1083"></child>
             <child nodeId="node-1081"></child>
             <child nodeId="node-1078"></child>
+            <child nodeId="node-1439"></child>
             <child nodeId="node-1076"></child>
             <child nodeId="node-1074"></child>
             <child nodeId="node-1072"></child>
@@ -743,6 +746,100 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
         <result xml:space="preserve">You are carrying:
   Medal
   spare key
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1439">
+        <command xml:space="preserve">take medal</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1440"></child>
+        </children>
+    </item>
+    <item nodeId="node-1440">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Bedroom
+Completely dark, you lie on your bed. The wall arcross from you has a locked orange door, bloking your exit. To your left is a bedside table with a stapler and broken bike horn on it. Some records lie in the corner next to the window. You can feel the despair in the room taking shape as an imaginary cookie that is out of reach. Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key...
+
+You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1441"></child>
+        </children>
+    </item>
+    <item nodeId="node-1441">
+        <command xml:space="preserve">take sheets</command>
+        <result xml:space="preserve">Cough... cough... These sheets our even dustier than I thought!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1442"></child>
+        </children>
+    </item>
+    <item nodeId="node-1442">
+        <command xml:space="preserve">combine hook</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1443"></child>
+        </children>
+    </item>
+    <item nodeId="node-1443">
+        <command xml:space="preserve">attach bedside table</command>
+        <result xml:space="preserve">What do you want to attach Bedside table to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1444"></child>
+        </children>
+    </item>
+    <item nodeId="node-1444">
+        <command xml:space="preserve">broken bike horn</command>
+        <result xml:space="preserve">You would achieve nothing by this.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1445"></child>
+        </children>
+    </item>
+    <item nodeId="node-1445">
+        <command xml:space="preserve">combine table</command>
+        <result xml:space="preserve">What do you want to combine Bedside table to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1446"></child>
+        </children>
+    </item>
+    <item nodeId="node-1446">
+        <command xml:space="preserve">broken bike horn</command>
+        <result xml:space="preserve">You fuse together Bedside table and Broken bike horn.
+You have made Hook!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1447"></child>
+        </children>
+    </item>
+    <item nodeId="node-1447">
+        <command xml:space="preserve">combine hook</command>
+        <result xml:space="preserve">What do you want to combine Hook to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1448"></child>
+        </children>
+    </item>
+    <item nodeId="node-1448">
+        <command xml:space="preserve">sheets</command>
+        <result xml:space="preserve">You can't combine Hook and Sheets into anything useful.
+Try another combination of things.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1957,7 +2054,51 @@ You can see Window here.
     <item nodeId="node-1251">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">You gotta open the window before you can get down there! I know the crank is tight, but can't you find a wrench or something?
-You're gona kill yourself kid! Haven't you seen the movies, at least attach the rope to something and slide down on that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1253"></child>
+        </children>
+    </item>
+    <item nodeId="node-1253">
+        <command xml:space="preserve">attach broken bike horn</command>
+        <result xml:space="preserve">What do you want to attach Broken bike horn to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1254"></child>
+        </children>
+    </item>
+    <item nodeId="node-1254">
+        <command xml:space="preserve">bedside table</command>
+        <result xml:space="preserve">You would achieve nothing by this.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1255"></child>
+        </children>
+    </item>
+    <item nodeId="node-1255">
+        <command xml:space="preserve">bedside tabel</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1256"></child>
+        </children>
+    </item>
+    <item nodeId="node-1256">
+        <command xml:space="preserve">attach bedside table</command>
+        <result xml:space="preserve">What do you want to attach Bedside table to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1257"></child>
+        </children>
+    </item>
+    <item nodeId="node-1257">
+        <command xml:space="preserve">broken bike horn</command>
+        <result xml:space="preserve">You would achieve nothing by this.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -1983,6 +2124,23 @@ You're gona kill yourself kid! Haven't you seen the movies, at least attach the 
     <item nodeId="node-1191">
         <command xml:space="preserve">bedside table</command>
         <result xml:space="preserve">You would achieve nothing by this.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1449">
+        <command xml:space="preserve">combine bedside table</command>
+        <result xml:space="preserve">What do you want to combine Bedside table to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1450"></child>
+        </children>
+    </item>
+    <item nodeId="node-1450">
+        <command xml:space="preserve">broken bike horn</command>
+        <result xml:space="preserve">You fuse together Bedside table and Broken bike horn.
+You have made Hook!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
@@ -2126,6 +2284,76 @@ You have made Hook!
 Completely dark, you lie on your bed. The wall arcross from you has a locked orange door, bloking your exit. To your left is a bedside table with a stapler and broken bike horn on it. Some records lie in the corner next to the window. You can feel the despair in the room taking shape as an imaginary cookie that is out of reach. Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key...
 
 You can see Hook, Orange door, Window, Stapler, Despair and Records here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1451">
+        <command xml:space="preserve">attach bedside table</command>
+        <result xml:space="preserve">What do you want to attach Bedside table to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1452"></child>
+        </children>
+    </item>
+    <item nodeId="node-1452">
+        <command xml:space="preserve">broken bike horn</command>
+        <result xml:space="preserve">You would achieve nothing by this.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1453"></child>
+        </children>
+    </item>
+    <item nodeId="node-1453">
+        <command xml:space="preserve">attach bedside table</command>
+        <result xml:space="preserve">What do you want to attach Bedside table to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1454"></child>
+        </children>
+    </item>
+    <item nodeId="node-1454">
+        <command xml:space="preserve">combine broken bike horn</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1455"></child>
+        </children>
+    </item>
+    <item nodeId="node-1455">
+        <command xml:space="preserve">combine broken bike horn</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1456"></child>
+        </children>
+    </item>
+    <item nodeId="node-1456">
+        <command xml:space="preserve">combine bedside table</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1457"></child>
+        </children>
+    </item>
+    <item nodeId="node-1457">
+        <command xml:space="preserve">attach bedside table</command>
+        <result xml:space="preserve">What do you want to attach Bedside table to?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1458"></child>
+        </children>
+    </item>
+    <item nodeId="node-1458">
+        <command xml:space="preserve">broken bike horn</command>
+        <result xml:space="preserve">You would achieve nothing by this.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

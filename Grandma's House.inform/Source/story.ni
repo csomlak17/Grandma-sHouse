@@ -73,7 +73,6 @@ Instead of taking sheets:
 [The combining action from Tonic.]
 Understand "combine [something] to [something]" as combining it with.
 Combining it with is an action applying to two things.
-[attaching doesn't seem to work]
 
 [The line below tells Inform7 that combining produces something. From Tonic.]
 The combining it with action has an object called the Contraption.
@@ -92,7 +91,7 @@ Setting action variables for combining something with something:
 [if there is no match for the combination of things, there is no result for the combining, so STOP the action from Tonic.]
 Check combining it with:
 	if Contraption is nothing:
-		say "You can't combine [the noun] and [the second noun] into anything useful.[line break]Try another combination of things.";
+		say "You can't attach [the noun] and [the second noun] into anything useful.[line break]Try another combination of things.";
 		stop the action.
 
 [If action is not stopped, continue to… From tonic]
@@ -109,8 +108,7 @@ Parts List	Results
 {Hook, Medal}	Hanger
 {Hanger, sheets}	Homemade rope
 
-
-Hook is an object. The description is "Now you've made a hook that you can tie things to. This will be super good for climbing out the window.".
+Hook is an object. The description is "Now you've made a hook that you can tie things to. This will be super good for climbing out the window. The only problem is you can't attach something as big as a bed sheet to this make shift hook.".
 
 Hanger is an object. The description is "Great now you have a big enough loop to attach all your sheets to!"
 
@@ -146,7 +144,7 @@ Instead of switching on lamp:
 	
 Medals is a thing in Hallway. The description is "A bunch of old medals. The long neck straps seem good for tying down things.".
 
-Medal is a thing in Hallway. Medal is undescribed. 
+Medal is a thing in Hallway. Medal is undescribed. The description of medal is "It's a nice medal, bronze. Further more the strap that goes around the neck seems thin enough to pass through an attached bike horn, but wide enough to let sheets slide through."
 
 Instead of taking Medals:
 	say "You, scared that grabbing to many could make extra noise grab the first medal that you touch on the wall. You now have a medal.";
