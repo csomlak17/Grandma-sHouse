@@ -114,6 +114,9 @@ Parts List	Results
 
 Hook is an object. The description is "Now you've made a hook that you can tie things to. This will be super good for climbing out the window. The only problem is you can't attach something as big as a bed sheet to this make shift hook, you have to combine something else to the hook in order to attach your sheets.".
 
+Instead of combining Hook with sheets:
+	say "The only problem is you can't attach something as big as a bed sheet to this make shift hook, you have to combine something else to the hook in order to attach your sheets.".
+
 Hanger is an object. The description is "Great now you have a big enough loop to attach all your sheets to!"
 
 Homemade rope is an object. The description is "Just like in the movies you have made your own escape line! Good Job!".
@@ -185,9 +188,9 @@ Landing Zone is a room. Landing zone is east of Glass. The description is "You a
 
 Grass is scenery in Landing zone. The description is "Green blades blowing in the wind".
 
-Woods is a room. Woods is east of Landing zone. The description is "It's just a plain field. Oh look it's the cat, he's playing with a pile of leaves. I love the cat. Whats that? Did I just hear the cat speak to me??"
+Woods is a room. Woods is east of Landing zone. The description is "It's just a plain field. [if leaves are in woods] Oh look it's the cat, he's playing with a pile of leaves. I love the cat. Whats that? Did I just hear the cat speak to me??"
 
-Cat is a man in woods. The description is "Just a regular black cat playing in the leaves. It also talks, wadda ya know!"
+Cat is a man in woods. Cat is undescribed. The description is "Just a regular black cat playing in the leaves. It also talks, wadda ya know!"
 
 Talking to is an action applying to one visible thing.
 Understand "talk to [someone]" or “converse with [someone]” as talking to.
@@ -198,7 +201,7 @@ Instead of talking to Cat:
 
 Leaves are a thing in woods. The description is "Large thick leaves that look like they come from a thick jungle plant and leave you wondering where the cat goes in his free time. They are thick enough to block light, but thin enough that if you really tried to you could probably staple them up.".
 
-Light Zone is a room. Light zone is north of Landing zone. "Between landing zone and the door to the kitchen. [if leaves are not in light zone] Wait! Theres a motion activated light north of here between here and the front porch with the door on it. If you go that way the light with give you away!"
+Light Zone is a room. Light zone is north of Landing zone. "Between landing zone and the door to the kitchen. [if leaves are not in light zone] Wait! There's a motion activated light north of here, it's between you and the door. If you go that way the light will turn on and give you away!"
 
 Bright is a thing in light zone. The printed name is "Light". The description is "Motion activated, and bright enough to take up grandma. Advance with caution."
 Understand "light" as bright.
@@ -213,11 +216,15 @@ Instead of taking bright:
 Understand "staple [something]" as dropping. 
 Instead of dropping:
 	if noun is leaves:
-		say "You staple the leaves to the wall bloking the light from reaching upstairs. Now safely go to the porch up north!";
-		now noun is in location;
+		if player has stapler:
+			say "You staple the leaves to the wall bloking the light from reaching upstairs. Now safely go to the porch up north!";
+			now noun is in location;
+		otherwise:
+			say "How are you going to stapple the leaves over the light if you don't have the stapler!";
 	otherwise:
 		if noun is stool:
 			say "You quietly place down the stool.";
+			now stool is in location;
 		otherwise:	
 			say "I think you should try stapling something else. You're on the right track though!".	
 		
