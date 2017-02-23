@@ -11,7 +11,7 @@ You are a small ten year old having a sleep over at grandmas house. You helped h
 
 Grandma's House
 An Interactive Fiction by Calien Somlak
-Release 1 / Serial number 170222 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 170223 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Bedroom
 Completely dark, you lie on your bed. The wall arcross from you has an orange door. To your left is a bedside table  with a stapler on it.   There is also a broken bike horn.   Some records lie in the corner next to the window.  You can feel the despair in the room taking shape as an imaginary cookie that is out of reach.  Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key...
@@ -20,23 +20,23 @@ You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1451"></child>
-            <child nodeId="node-1202"></child>
-            <child nodeId="node-1196"></child>
-            <child nodeId="node-1192"></child>
-            <child nodeId="node-1449"></child>
-            <child nodeId="node-1189"></child>
-            <child nodeId="node-1251"></child>
-            <child nodeId="node-1186"></child>
-            <child nodeId="node-1183"></child>
-            <child nodeId="node-1180"></child>
-            <child nodeId="node-1152"></child>
-            <child nodeId="node-1147"></child>
-            <child nodeId="node-1145"></child>
-            <child nodeId="node-1140"></child>
-            <child nodeId="node-1135"></child>
-            <child nodeId="node-1128"></child>
-            <child nodeId="node-1120"></child>
+        <children><child nodeId="node-1344"></child>
+            <child nodeId="node-1338"></child>
+            <child nodeId="node-1332"></child>
+            <child nodeId="node-1327"></child>
+            <child nodeId="node-1325"></child>
+            <child nodeId="node-1322"></child>
+            <child nodeId="node-1316"></child>
+            <child nodeId="node-1313"></child>
+            <child nodeId="node-1310"></child>
+            <child nodeId="node-1307"></child>
+            <child nodeId="node-1279"></child>
+            <child nodeId="node-1274"></child>
+            <child nodeId="node-1272"></child>
+            <child nodeId="node-1267"></child>
+            <child nodeId="node-1262"></child>
+            <child nodeId="node-1255"></child>
+            <child nodeId="node-1247"></child>
             <child nodeId="node-1053"></child>
             <child nodeId="node-1049"></child>
             <child nodeId="node-1042"></child>
@@ -499,9 +499,9 @@ Cough... cough... These sheets our even dustier than I thought!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1797"></child>
-            <child nodeId="node-1100"></child>
-            <child nodeId="node-1097"></child>
+        <children><child nodeId="node-1195"></child>
+            <child nodeId="node-1140"></child>
+            <child nodeId="node-1137"></child>
             <child nodeId="node-1069"></child>
             <child nodeId="node-1054"></child>
         </children>
@@ -671,11 +671,11 @@ You unlock Orange door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1070"></child>
-            <child nodeId="node-1851"></child>
+        <children><child nodeId="node-1079"></child>
+            <child nodeId="node-1070"></child>
         </children>
     </item>
-    <item nodeId="node-1851">
+    <item nodeId="node-1070">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">(first opening Orange door)
 
@@ -686,10 +686,60 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1852"></child>
+        <children><child nodeId="node-1071"></child>
+            <child nodeId="node-1357"></child>
         </children>
     </item>
-    <item nodeId="node-1852">
+    <item nodeId="node-1357">
+        <command xml:space="preserve">stand on stool</command>
+        <result xml:space="preserve">You get onto Wooden stool.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1368"></child>
+            <child nodeId="node-1358"></child>
+        </children>
+    </item>
+    <item nodeId="node-1358">
+        <command xml:space="preserve">take stool</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1368">
+        <command xml:space="preserve">get in stool</command>
+        <result xml:space="preserve">But you're already on Wooden stool.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1374"></child>
+        </children>
+    </item>
+    <item nodeId="node-1374">
+        <command xml:space="preserve">take stool</command>
+        <result xml:space="preserve">You would have to get off Wooden stool first.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1375"></child>
+        </children>
+    </item>
+    <item nodeId="node-1375">
+        <command xml:space="preserve">get off stool</command>
+        <result xml:space="preserve">You get off Wooden stool.
+
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room.  There's a small wooden stool grandma stands on to clean the windows since their to tall for her.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
+
+You can see Orange door, Wooden stool, Lamp and Medals here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1376"></child>
+        </children>
+    </item>
+    <item nodeId="node-1376">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Grandmas entrance
@@ -699,19 +749,19 @@ You can see a wrench, Spare bell and Rubber duck here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1853"></child>
+        <children><child nodeId="node-1377"></child>
         </children>
     </item>
-    <item nodeId="node-1853">
-        <command xml:space="preserve">take wrench</command>
-        <result xml:space="preserve">Taken.
+    <item nodeId="node-1377">
+        <command xml:space="preserve">drop stool</command>
+        <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1854"></child>
+        <children><child nodeId="node-1378"></child>
         </children>
     </item>
-    <item nodeId="node-1854">
+    <item nodeId="node-1378">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Hallway
@@ -721,10 +771,73 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1855"></child>
+        <children><child nodeId="node-1379"></child>
         </children>
     </item>
-    <item nodeId="node-1855">
+    <item nodeId="node-1379">
+        <command xml:space="preserve">take stool</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1380"></child>
+        </children>
+    </item>
+    <item nodeId="node-1380">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Grandmas entrance
+Still part of the hallway you see  the sillouette of a wrench lying against the wall on the groud on the corner between the end of the line of hallway windows and  grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys.
+
+You can see a wrench, Spare bell and Rubber duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1381"></child>
+        </children>
+    </item>
+    <item nodeId="node-1381">
+        <command xml:space="preserve">drop stool</command>
+        <result xml:space="preserve">you place down the stool quietly
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1071">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Grandmas entrance
+Still part of the hallway you see  the sillouette of a wrench lying against the wall on the groud on the corner between the end of the line of hallway windows and  grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys.
+
+You can see a wrench, Spare bell and Rubber duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1072"></child>
+        </children>
+    </item>
+    <item nodeId="node-1072">
+        <command xml:space="preserve">take wrench</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1073"></child>
+        </children>
+    </item>
+    <item nodeId="node-1073">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room.  There's a small wooden stool grandma stands on to clean the windows since their to tall for her.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
+
+You can see Orange door, Wooden stool, Lamp and Medals here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1074"></child>
+        </children>
+    </item>
+    <item nodeId="node-1074">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Grandmas entrance
@@ -734,10 +847,10 @@ You can see Spare bell and Rubber duck here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1856"></child>
+        <children><child nodeId="node-1075"></child>
         </children>
     </item>
-    <item nodeId="node-1856">
+    <item nodeId="node-1075">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Hallway
@@ -747,10 +860,10 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1857"></child>
+        <children><child nodeId="node-1076"></child>
         </children>
     </item>
-    <item nodeId="node-1857">
+    <item nodeId="node-1076">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Bedroom
@@ -760,36 +873,36 @@ You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1858"></child>
+        <children><child nodeId="node-1077"></child>
         </children>
     </item>
-    <item nodeId="node-1858">
+    <item nodeId="node-1077">
         <command xml:space="preserve">crank open window</command>
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1859"></child>
+        <children><child nodeId="node-1078"></child>
         </children>
     </item>
-    <item nodeId="node-1859">
+    <item nodeId="node-1078">
         <command xml:space="preserve">crank window</command>
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1070">
+    <item nodeId="node-1079">
         <command xml:space="preserve">open orange</command>
         <result xml:space="preserve">You open Orange door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1093"></child>
-            <child nodeId="node-1071"></child>
+        <children><child nodeId="node-1133"></child>
+            <child nodeId="node-1080"></child>
         </children>
     </item>
-    <item nodeId="node-1071">
+    <item nodeId="node-1080">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Hallway
@@ -799,57 +912,57 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1083"></child>
+        <children><child nodeId="node-1102"></child>
+            <child nodeId="node-1100"></child>
+            <child nodeId="node-1097"></child>
+            <child nodeId="node-1087"></child>
+            <child nodeId="node-1085"></child>
+            <child nodeId="node-1083"></child>
             <child nodeId="node-1081"></child>
-            <child nodeId="node-1078"></child>
-            <child nodeId="node-1439"></child>
-            <child nodeId="node-1076"></child>
-            <child nodeId="node-1074"></child>
-            <child nodeId="node-1072"></child>
         </children>
     </item>
-    <item nodeId="node-1072">
+    <item nodeId="node-1081">
         <command xml:space="preserve">turn on lamp</command>
         <result xml:space="preserve">It isn't something you can switch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1073"></child>
+        <children><child nodeId="node-1082"></child>
         </children>
     </item>
-    <item nodeId="node-1073">
+    <item nodeId="node-1082">
         <command xml:space="preserve">switch lamp</command>
         <result xml:space="preserve">It isn't something you can switch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1074">
+    <item nodeId="node-1083">
         <command xml:space="preserve">turn on lamb</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1075"></child>
+        <children><child nodeId="node-1084"></child>
         </children>
     </item>
-    <item nodeId="node-1075">
+    <item nodeId="node-1084">
         <command xml:space="preserve">turn on lamp</command>
         <result xml:space="preserve">It isn't something you can switch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1076">
+    <item nodeId="node-1085">
         <command xml:space="preserve">take medals</command>
         <result xml:space="preserve">You, scared that grabbing to many could make extra noise grab the first medal that you touch on the wall. You now have a medal.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1077"></child>
+        <children><child nodeId="node-1086"></child>
         </children>
     </item>
-    <item nodeId="node-1077">
+    <item nodeId="node-1086">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   Medal
@@ -858,16 +971,16 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1439">
+    <item nodeId="node-1087">
         <command xml:space="preserve">take medal</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1440"></child>
+        <children><child nodeId="node-1088"></child>
         </children>
     </item>
-    <item nodeId="node-1440">
+    <item nodeId="node-1088">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Bedroom
@@ -877,74 +990,74 @@ You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1441"></child>
+        <children><child nodeId="node-1089"></child>
         </children>
     </item>
-    <item nodeId="node-1441">
+    <item nodeId="node-1089">
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">Cough... cough... These sheets our even dustier than I thought!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1442"></child>
+        <children><child nodeId="node-1090"></child>
         </children>
     </item>
-    <item nodeId="node-1442">
+    <item nodeId="node-1090">
         <command xml:space="preserve">combine hook</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1443"></child>
+        <children><child nodeId="node-1091"></child>
         </children>
     </item>
-    <item nodeId="node-1443">
+    <item nodeId="node-1091">
         <command xml:space="preserve">attach bedside table</command>
         <result xml:space="preserve">What do you want to attach Bedside table to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1444"></child>
+        <children><child nodeId="node-1092"></child>
         </children>
     </item>
-    <item nodeId="node-1444">
+    <item nodeId="node-1092">
         <command xml:space="preserve">broken bike horn</command>
         <result xml:space="preserve">You would achieve nothing by this.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1445"></child>
+        <children><child nodeId="node-1093"></child>
         </children>
     </item>
-    <item nodeId="node-1445">
+    <item nodeId="node-1093">
         <command xml:space="preserve">combine table</command>
         <result xml:space="preserve">What do you want to combine Bedside table to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1446"></child>
+        <children><child nodeId="node-1094"></child>
         </children>
     </item>
-    <item nodeId="node-1446">
+    <item nodeId="node-1094">
         <command xml:space="preserve">broken bike horn</command>
         <result xml:space="preserve">You fuse together Bedside table and Broken bike horn.
 You have made Hook!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1447"></child>
+        <children><child nodeId="node-1095"></child>
         </children>
     </item>
-    <item nodeId="node-1447">
+    <item nodeId="node-1095">
         <command xml:space="preserve">combine hook</command>
         <result xml:space="preserve">What do you want to combine Hook to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1448"></child>
+        <children><child nodeId="node-1096"></child>
         </children>
     </item>
-    <item nodeId="node-1448">
+    <item nodeId="node-1096">
         <command xml:space="preserve">sheets</command>
         <result xml:space="preserve">You can't combine Hook and Sheets into anything useful.
 Try another combination of things.
@@ -952,48 +1065,48 @@ Try another combination of things.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1078">
+    <item nodeId="node-1097">
         <command xml:space="preserve">take lamp</command>
         <result xml:space="preserve">That's fixed in place.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1079"></child>
+        <children><child nodeId="node-1098"></child>
         </children>
     </item>
-    <item nodeId="node-1079">
+    <item nodeId="node-1098">
         <command xml:space="preserve">switch lamp</command>
         <result xml:space="preserve">It isn't something you can switch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1080"></child>
+        <children><child nodeId="node-1099"></child>
         </children>
     </item>
-    <item nodeId="node-1080">
+    <item nodeId="node-1099">
         <command xml:space="preserve">turn on lamp</command>
         <result xml:space="preserve">It isn't something you can switch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1081">
+    <item nodeId="node-1100">
         <command xml:space="preserve">switch lamp</command>
         <result xml:space="preserve">It isn't something you can switch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1082"></child>
+        <children><child nodeId="node-1101"></child>
         </children>
     </item>
-    <item nodeId="node-1082">
+    <item nodeId="node-1101">
         <command xml:space="preserve">turn on lamp</command>
         <result xml:space="preserve">It isn't something you can switch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1083">
+    <item nodeId="node-1102">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Grandmas entrance
@@ -1003,21 +1116,21 @@ You can see a wrench, Spare bell and Rubber duck here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1091"></child>
-            <child nodeId="node-1084"></child>
-            <child nodeId="node-1212"></child>
+        <children><child nodeId="node-1131"></child>
+            <child nodeId="node-1106"></child>
+            <child nodeId="node-1103"></child>
         </children>
     </item>
-    <item nodeId="node-1212">
+    <item nodeId="node-1103">
         <command xml:space="preserve">turn on lamp</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1213"></child>
+        <children><child nodeId="node-1104"></child>
         </children>
     </item>
-    <item nodeId="node-1213">
+    <item nodeId="node-1104">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Hallway
@@ -1027,10 +1140,10 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1214"></child>
+        <children><child nodeId="node-1105"></child>
         </children>
     </item>
-    <item nodeId="node-1214">
+    <item nodeId="node-1105">
         <command xml:space="preserve">turn on lamp</command>
         <result xml:space="preserve">You turn on the light, ignoring my advice like an idiot and grandma wakes up. Maybe you'll trust me more next time.
 
@@ -1045,17 +1158,17 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1084">
+    <item nodeId="node-1106">
         <command xml:space="preserve">take wrench</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1087"></child>
-            <child nodeId="node-1085"></child>
+        <children><child nodeId="node-1109"></child>
+            <child nodeId="node-1107"></child>
         </children>
     </item>
-    <item nodeId="node-1085">
+    <item nodeId="node-1107">
         <command xml:space="preserve">take bell</command>
         <result xml:space="preserve">you reach for the bell and in the process of picking it up it rings alerting grandma. Your in big trouble for sneaking around a night!
 
@@ -1069,10 +1182,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1086"></child>
+        <children><child nodeId="node-1108"></child>
         </children>
     </item>
-    <item nodeId="node-1086">
+    <item nodeId="node-1108">
         <command xml:space="preserve">restore</command>
         <result xml:space="preserve">Restore failed.
 
@@ -1080,7 +1193,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1087">
+    <item nodeId="node-1109">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Hallway
@@ -1090,29 +1203,29 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1088"></child>
-            <child nodeId="node-1238"></child>
+        <children><child nodeId="node-1123"></child>
+            <child nodeId="node-1110"></child>
         </children>
     </item>
-    <item nodeId="node-1238">
+    <item nodeId="node-1110">
         <command xml:space="preserve">take medals</command>
         <result xml:space="preserve">You, scared that grabbing to many could make extra noise grab the first medal that you touch on the wall. You now have a medal.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1239"></child>
+        <children><child nodeId="node-1111"></child>
         </children>
     </item>
-    <item nodeId="node-1239">
+    <item nodeId="node-1111">
         <command xml:space="preserve">take stool</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1240"></child>
+        <children><child nodeId="node-1112"></child>
         </children>
     </item>
-    <item nodeId="node-1240">
+    <item nodeId="node-1112">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Bedroom
@@ -1122,94 +1235,94 @@ You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1241"></child>
+        <children><child nodeId="node-1113"></child>
         </children>
     </item>
-    <item nodeId="node-1241">
+    <item nodeId="node-1113">
         <command xml:space="preserve">take stappler</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1242"></child>
+        <children><child nodeId="node-1114"></child>
         </children>
     </item>
-    <item nodeId="node-1242">
+    <item nodeId="node-1114">
         <command xml:space="preserve">take stapler</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1243"></child>
+        <children><child nodeId="node-1115"></child>
         </children>
     </item>
-    <item nodeId="node-1243">
+    <item nodeId="node-1115">
         <command xml:space="preserve">combine broken bike horn</command>
         <result xml:space="preserve">What do you want to combine Broken bike horn to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1244"></child>
+        <children><child nodeId="node-1116"></child>
         </children>
     </item>
-    <item nodeId="node-1244">
+    <item nodeId="node-1116">
         <command xml:space="preserve">bedside table</command>
         <result xml:space="preserve">You fuse together Broken bike horn and Bedside table.
 You have made Hook!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1245"></child>
+        <children><child nodeId="node-1117"></child>
         </children>
     </item>
-    <item nodeId="node-1245">
+    <item nodeId="node-1117">
         <command xml:space="preserve">combine hook</command>
         <result xml:space="preserve">What do you want to combine Hook to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1246"></child>
+        <children><child nodeId="node-1118"></child>
         </children>
     </item>
-    <item nodeId="node-1246">
+    <item nodeId="node-1118">
         <command xml:space="preserve">medal</command>
         <result xml:space="preserve">You fuse together Hook and Medal.
 You have made Hanger!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1247"></child>
+        <children><child nodeId="node-1119"></child>
         </children>
     </item>
-    <item nodeId="node-1247">
+    <item nodeId="node-1119">
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">Cough... cough... These sheets our even dustier than I thought!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1248"></child>
+        <children><child nodeId="node-1120"></child>
         </children>
     </item>
-    <item nodeId="node-1248">
+    <item nodeId="node-1120">
         <command xml:space="preserve">combine hanger</command>
         <result xml:space="preserve">What do you want to combine Hanger to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1249"></child>
+        <children><child nodeId="node-1121"></child>
         </children>
     </item>
-    <item nodeId="node-1249">
+    <item nodeId="node-1121">
         <command xml:space="preserve">sheets</command>
         <result xml:space="preserve">You fuse together Hanger and Sheets.
 You have made Homemade rope!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1250"></child>
+        <children><child nodeId="node-1122"></child>
         </children>
     </item>
-    <item nodeId="node-1250">
+    <item nodeId="node-1122">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">you go down
 Landing Zone
@@ -1218,7 +1331,7 @@ You can see Window here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1088">
+    <item nodeId="node-1123">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Bedroom
@@ -1228,20 +1341,20 @@ You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1879"></child>
-            <child nodeId="node-1089"></child>
+        <children><child nodeId="node-1126"></child>
+            <child nodeId="node-1124"></child>
         </children>
     </item>
-    <item nodeId="node-1089">
+    <item nodeId="node-1124">
         <command xml:space="preserve">unlock window with wrench</command>
         <result xml:space="preserve">You unlock Window.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1090"></child>
+        <children><child nodeId="node-1125"></child>
         </children>
     </item>
-    <item nodeId="node-1090">
+    <item nodeId="node-1125">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">(first opening Window)
 
@@ -1251,50 +1364,50 @@ You can see Window here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1879">
+    <item nodeId="node-1126">
         <command xml:space="preserve">crang window</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1880"></child>
+        <children><child nodeId="node-1127"></child>
         </children>
     </item>
-    <item nodeId="node-1880">
+    <item nodeId="node-1127">
         <command xml:space="preserve">crank window</command>
         <result xml:space="preserve">What do you want to crank Window with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1881"></child>
+        <children><child nodeId="node-1128"></child>
         </children>
     </item>
-    <item nodeId="node-1881">
+    <item nodeId="node-1128">
         <command xml:space="preserve">crank open window</command>
         <result xml:space="preserve">What do you want to crank open Window with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1882"></child>
+        <children><child nodeId="node-1129"></child>
         </children>
     </item>
-    <item nodeId="node-1882">
+    <item nodeId="node-1129">
         <command xml:space="preserve">crank open window with wrench</command>
         <result xml:space="preserve">You unlock Window.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1883"></child>
+        <children><child nodeId="node-1130"></child>
         </children>
     </item>
-    <item nodeId="node-1883">
+    <item nodeId="node-1130">
         <command xml:space="preserve">crank window with wrench</command>
         <result xml:space="preserve">That's unlocked at the moment.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1091">
+    <item nodeId="node-1131">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Hallway
@@ -1304,26 +1417,26 @@ You can see Orange door and Wooden stool here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1092"></child>
+        <children><child nodeId="node-1132"></child>
         </children>
     </item>
-    <item nodeId="node-1092">
+    <item nodeId="node-1132">
         <command xml:space="preserve">stand on wooden stool</command>
         <result xml:space="preserve">That's not something you can stand on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1093">
+    <item nodeId="node-1133">
         <command xml:space="preserve">turn on lamp</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1094"></child>
+        <children><child nodeId="node-1134"></child>
         </children>
     </item>
-    <item nodeId="node-1094">
+    <item nodeId="node-1134">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Hallway
@@ -1333,88 +1446,88 @@ You can see Orange door, Wooden stool and Lamp here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1095"></child>
+        <children><child nodeId="node-1135"></child>
         </children>
     </item>
-    <item nodeId="node-1095">
+    <item nodeId="node-1135">
         <command xml:space="preserve">turn on lamp</command>
         <result xml:space="preserve">It isn't something you can switch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1096"></child>
+        <children><child nodeId="node-1136"></child>
         </children>
     </item>
-    <item nodeId="node-1096">
+    <item nodeId="node-1136">
         <command xml:space="preserve">turn on lamp</command>
         <result xml:space="preserve">It isn't something you can switch.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1097">
+    <item nodeId="node-1137">
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">Cough... cough... These sheets our even dustier than I thought!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1098"></child>
+        <children><child nodeId="node-1138"></child>
         </children>
     </item>
-    <item nodeId="node-1098">
+    <item nodeId="node-1138">
         <command xml:space="preserve">take broken disk</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1099"></child>
+        <children><child nodeId="node-1139"></child>
         </children>
     </item>
-    <item nodeId="node-1099">
+    <item nodeId="node-1139">
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">Cough... cough... These sheets our even dustier than I thought!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1100">
+    <item nodeId="node-1140">
         <command xml:space="preserve">open orange</command>
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1108"></child>
-            <child nodeId="node-1101"></child>
+        <children><child nodeId="node-1148"></child>
+            <child nodeId="node-1141"></child>
         </children>
     </item>
-    <item nodeId="node-1101">
+    <item nodeId="node-1141">
         <command xml:space="preserve">unlock orange with spare</command>
         <result xml:space="preserve">You unlock Orange door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1102"></child>
+        <children><child nodeId="node-1142"></child>
         </children>
     </item>
-    <item nodeId="node-1102">
+    <item nodeId="node-1142">
         <command xml:space="preserve">open door</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1103"></child>
+        <children><child nodeId="node-1143"></child>
         </children>
     </item>
-    <item nodeId="node-1103">
+    <item nodeId="node-1143">
         <command xml:space="preserve">open orange door</command>
         <result xml:space="preserve">You open Orange door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1104"></child>
+        <children><child nodeId="node-1144"></child>
         </children>
     </item>
-    <item nodeId="node-1104">
+    <item nodeId="node-1144">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Hallway
@@ -1424,47 +1537,47 @@ You can see Orange door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1105"></child>
+        <children><child nodeId="node-1145"></child>
         </children>
     </item>
-    <item nodeId="node-1105">
+    <item nodeId="node-1145">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1106"></child>
+        <children><child nodeId="node-1146"></child>
         </children>
     </item>
-    <item nodeId="node-1106">
+    <item nodeId="node-1146">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Grandmas entrence
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1107"></child>
+        <children><child nodeId="node-1147"></child>
         </children>
     </item>
-    <item nodeId="node-1107">
+    <item nodeId="node-1147">
         <command xml:space="preserve">take wrench</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1108">
+    <item nodeId="node-1148">
         <command xml:space="preserve">unlock orange</command>
         <result xml:space="preserve">(with spare key)
 You unlock Orange door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1109"></child>
-            <child nodeId="node-1900"></child>
+        <children><child nodeId="node-1184"></child>
+            <child nodeId="node-1149"></child>
         </children>
     </item>
-    <item nodeId="node-1900">
+    <item nodeId="node-1149">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">(first opening Orange door)
 
@@ -1475,28 +1588,28 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1901"></child>
+        <children><child nodeId="node-1150"></child>
         </children>
     </item>
-    <item nodeId="node-1901">
+    <item nodeId="node-1150">
         <command xml:space="preserve">take wooden stool</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1902"></child>
+        <children><child nodeId="node-1151"></child>
         </children>
     </item>
-    <item nodeId="node-1902">
+    <item nodeId="node-1151">
         <command xml:space="preserve">take medals</command>
         <result xml:space="preserve">You, scared that grabbing to many could make extra noise grab the first medal that you touch on the wall. You now have a medal.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1903"></child>
+        <children><child nodeId="node-1152"></child>
         </children>
     </item>
-    <item nodeId="node-1903">
+    <item nodeId="node-1152">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Grandmas entrance
@@ -1506,19 +1619,19 @@ You can see a wrench, Spare bell and Rubber duck here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1904"></child>
+        <children><child nodeId="node-1153"></child>
         </children>
     </item>
-    <item nodeId="node-1904">
+    <item nodeId="node-1153">
         <command xml:space="preserve">take wrench</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1905"></child>
+        <children><child nodeId="node-1154"></child>
         </children>
     </item>
-    <item nodeId="node-1905">
+    <item nodeId="node-1154">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Hallway
@@ -1528,10 +1641,10 @@ You can see Orange door and Lamp here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1906"></child>
+        <children><child nodeId="node-1155"></child>
         </children>
     </item>
-    <item nodeId="node-1906">
+    <item nodeId="node-1155">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Bedroom
@@ -1541,130 +1654,130 @@ You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1907"></child>
+        <children><child nodeId="node-1156"></child>
         </children>
     </item>
-    <item nodeId="node-1907">
+    <item nodeId="node-1156">
         <command xml:space="preserve">take stapler</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1908"></child>
+        <children><child nodeId="node-1157"></child>
         </children>
     </item>
-    <item nodeId="node-1908">
+    <item nodeId="node-1157">
         <command xml:space="preserve">combine broken bike horn with bedside table</command>
         <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1909"></child>
+        <children><child nodeId="node-1158"></child>
         </children>
     </item>
-    <item nodeId="node-1909">
+    <item nodeId="node-1158">
         <command xml:space="preserve">combine broken bike horn</command>
         <result xml:space="preserve">What do you want to combine Broken bike horn to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1910"></child>
+        <children><child nodeId="node-1159"></child>
         </children>
     </item>
-    <item nodeId="node-1910">
+    <item nodeId="node-1159">
         <command xml:space="preserve">bedside table</command>
         <result xml:space="preserve">You fuse together Broken bike horn and Bedside table.
 You have made Hook!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1911"></child>
+        <children><child nodeId="node-1160"></child>
         </children>
     </item>
-    <item nodeId="node-1911">
+    <item nodeId="node-1160">
         <command xml:space="preserve">combine medal</command>
         <result xml:space="preserve">What do you want to combine Medal to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1912"></child>
+        <children><child nodeId="node-1161"></child>
         </children>
     </item>
-    <item nodeId="node-1912">
+    <item nodeId="node-1161">
         <command xml:space="preserve">hook</command>
         <result xml:space="preserve">You fuse together Medal and Hook.
 You have made Hanger!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1913"></child>
+        <children><child nodeId="node-1162"></child>
         </children>
     </item>
-    <item nodeId="node-1913">
+    <item nodeId="node-1162">
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">Cough... cough... These sheets our even dustier than I thought!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1914"></child>
+        <children><child nodeId="node-1163"></child>
         </children>
     </item>
-    <item nodeId="node-1914">
+    <item nodeId="node-1163">
         <command xml:space="preserve">combine hanger</command>
         <result xml:space="preserve">What do you want to combine Hanger to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1915"></child>
+        <children><child nodeId="node-1164"></child>
         </children>
     </item>
-    <item nodeId="node-1915">
+    <item nodeId="node-1164">
         <command xml:space="preserve">sheets</command>
         <result xml:space="preserve">You fuse together Hanger and Sheets.
 You have made Homemade rope!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1916"></child>
+        <children><child nodeId="node-1165"></child>
         </children>
     </item>
-    <item nodeId="node-1916">
+    <item nodeId="node-1165">
         <command xml:space="preserve">unlock window</command>
         <result xml:space="preserve">What do you want to unlock Window with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1917"></child>
+        <children><child nodeId="node-1166"></child>
         </children>
     </item>
-    <item nodeId="node-1917">
+    <item nodeId="node-1166">
         <command xml:space="preserve">wrench</command>
         <result xml:space="preserve">You unlock Window.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1918"></child>
+        <children><child nodeId="node-1167"></child>
         </children>
     </item>
-    <item nodeId="node-1918">
+    <item nodeId="node-1167">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">You gotta open the window before you can get down there!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1919"></child>
+        <children><child nodeId="node-1168"></child>
         </children>
     </item>
-    <item nodeId="node-1919">
+    <item nodeId="node-1168">
         <command xml:space="preserve">open window</command>
         <result xml:space="preserve">You open Window.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1920"></child>
+        <children><child nodeId="node-1169"></child>
         </children>
     </item>
-    <item nodeId="node-1920">
+    <item nodeId="node-1169">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">You swing down the outside of the house, feeling the cool night breeze softly landing on the grass outside.
 
@@ -1675,10 +1788,10 @@ You can see Window here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1921"></child>
+        <children><child nodeId="node-1170"></child>
         </children>
     </item>
-    <item nodeId="node-1921">
+    <item nodeId="node-1170">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Woods
@@ -1688,10 +1801,10 @@ You can see Cat and Leaves here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1922"></child>
+        <children><child nodeId="node-1171"></child>
         </children>
     </item>
-    <item nodeId="node-1922">
+    <item nodeId="node-1171">
         <command xml:space="preserve">talk to cat</command>
         <result xml:space="preserve">"Is that you?" you say hesitantly. 
 
@@ -1699,39 +1812,39 @@ You can see Cat and Leaves here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1923"></child>
+        <children><child nodeId="node-1172"></child>
         </children>
     </item>
-    <item nodeId="node-1923">
+    <item nodeId="node-1172">
         <command xml:space="preserve">g</command>
         <result xml:space="preserve"> "Umm.... is there anything taht you have to say, you know, as a cat?" 
 
  "I mean I'm a cat so I'm good at sneaking around, I could give you some pointers" the cat replies in a friendly manner." 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1924"></child>
+        <children><child nodeId="node-1173"></child>
         </children>
     </item>
-    <item nodeId="node-1924">
+    <item nodeId="node-1173">
         <command xml:space="preserve">g</command>
         <result xml:space="preserve">"How do I get to the door of the house" you ask the cat. 
 
  "Okay I can see your persistance, so I'll give you a hint. Take these leave that I've gathered so nicely for you, and simply staple___" the cat says and then dashes into the bushes! 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1925"></child>
+        <children><child nodeId="node-1174"></child>
         </children>
     </item>
-    <item nodeId="node-1925">
+    <item nodeId="node-1174">
         <command xml:space="preserve">take leaves</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1926"></child>
+        <children><child nodeId="node-1175"></child>
         </children>
     </item>
-    <item nodeId="node-1926">
+    <item nodeId="node-1175">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Landing Zone
@@ -1741,10 +1854,10 @@ You can see Window here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1927"></child>
+        <children><child nodeId="node-1176"></child>
         </children>
     </item>
-    <item nodeId="node-1927">
+    <item nodeId="node-1176">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Light Zone
@@ -1752,37 +1865,37 @@ Between landing zone and the door to the kitchen.  Wait! Theres a motion activat
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1959"></child>
+        <children><child nodeId="node-1177"></child>
         </children>
     </item>
-    <item nodeId="node-1959">
+    <item nodeId="node-1177">
         <command xml:space="preserve">stapple leaves</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1960"></child>
+        <children><child nodeId="node-1178"></child>
         </children>
     </item>
-    <item nodeId="node-1960">
+    <item nodeId="node-1178">
         <command xml:space="preserve">staple</command>
         <result xml:space="preserve">What do you want to staple?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1961"></child>
+        <children><child nodeId="node-1179"></child>
         </children>
     </item>
-    <item nodeId="node-1961">
+    <item nodeId="node-1179">
         <command xml:space="preserve">leaves</command>
         <result xml:space="preserve">You staple the leaves to the wall bloking the light from reaching upstairs. Now safely go to the porch up north!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1996"></child>
+        <children><child nodeId="node-1180"></child>
         </children>
     </item>
-    <item nodeId="node-1996">
+    <item nodeId="node-1180">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">The light turns on, but thankfully your leaves dim the light.
 
@@ -1791,10 +1904,10 @@ You can see Outside door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1997"></child>
+        <children><child nodeId="node-1181"></child>
         </children>
     </item>
-    <item nodeId="node-1997">
+    <item nodeId="node-1181">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Light Zone
@@ -1804,19 +1917,19 @@ You can see Leaves here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1998"></child>
+        <children><child nodeId="node-1182"></child>
         </children>
     </item>
-    <item nodeId="node-1998">
+    <item nodeId="node-1182">
         <command xml:space="preserve">take leaves</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1999"></child>
+        <children><child nodeId="node-1183"></child>
         </children>
     </item>
-    <item nodeId="node-1999">
+    <item nodeId="node-1183">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">The light turns on, and grandma's six sence wakes her up... Looks like you'll never even see cookies at grandma's house again.
 
@@ -1831,16 +1944,16 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
 &gt; </result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1109">
+    <item nodeId="node-1184">
         <command xml:space="preserve">open orange</command>
         <result xml:space="preserve">You open Orange door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1110"></child>
+        <children><child nodeId="node-1185"></child>
         </children>
     </item>
-    <item nodeId="node-1110">
+    <item nodeId="node-1185">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Hallway
@@ -1850,145 +1963,145 @@ You can see Orange door and Wooden stool here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1111"></child>
+        <children><child nodeId="node-1186"></child>
         </children>
     </item>
-    <item nodeId="node-1111">
+    <item nodeId="node-1186">
         <command xml:space="preserve">stand stool</command>
         <result xml:space="preserve">I only understood you as far as wanting to stand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1112"></child>
+        <children><child nodeId="node-1187"></child>
         </children>
     </item>
-    <item nodeId="node-1112">
+    <item nodeId="node-1187">
         <command xml:space="preserve">stand on wooden stool</command>
         <result xml:space="preserve">That's not something you can stand on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1113"></child>
+        <children><child nodeId="node-1188"></child>
         </children>
     </item>
-    <item nodeId="node-1113">
+    <item nodeId="node-1188">
         <command xml:space="preserve">stand on stool</command>
         <result xml:space="preserve">That's not something you can stand on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1114"></child>
+        <children><child nodeId="node-1189"></child>
         </children>
     </item>
-    <item nodeId="node-1114">
+    <item nodeId="node-1189">
         <command xml:space="preserve">get in stool</command>
         <result xml:space="preserve">That's not something you can enter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1115"></child>
+        <children><child nodeId="node-1190"></child>
         </children>
     </item>
-    <item nodeId="node-1115">
+    <item nodeId="node-1190">
         <command xml:space="preserve">enter stool</command>
         <result xml:space="preserve">That's not something you can enter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1116"></child>
+        <children><child nodeId="node-1191"></child>
         </children>
     </item>
-    <item nodeId="node-1116">
+    <item nodeId="node-1191">
         <command xml:space="preserve">get on stool</command>
         <result xml:space="preserve">That's not something you can enter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1117"></child>
+        <children><child nodeId="node-1192"></child>
         </children>
     </item>
-    <item nodeId="node-1117">
+    <item nodeId="node-1192">
         <command xml:space="preserve">get on stool</command>
         <result xml:space="preserve">That's not something you can enter.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1118"></child>
+        <children><child nodeId="node-1193"></child>
         </children>
     </item>
-    <item nodeId="node-1118">
+    <item nodeId="node-1193">
         <command xml:space="preserve">take stool</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1119"></child>
+        <children><child nodeId="node-1194"></child>
         </children>
     </item>
-    <item nodeId="node-1119">
+    <item nodeId="node-1194">
         <command xml:space="preserve">drop stool</command>
         <result xml:space="preserve">Dropped.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1797">
+    <item nodeId="node-1195">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   spare key
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1798"></child>
+        <children><child nodeId="node-1196"></child>
         </children>
     </item>
-    <item nodeId="node-1798">
+    <item nodeId="node-1196">
         <command xml:space="preserve">x door</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1799"></child>
+        <children><child nodeId="node-1197"></child>
         </children>
     </item>
-    <item nodeId="node-1799">
+    <item nodeId="node-1197">
         <command xml:space="preserve">x orange door</command>
         <result xml:space="preserve">I don't really like orange, also the door is old and faded.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1800"></child>
+        <children><child nodeId="node-1198"></child>
         </children>
     </item>
-    <item nodeId="node-1800">
+    <item nodeId="node-1198">
         <command xml:space="preserve">open orange door</command>
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1801"></child>
+        <children><child nodeId="node-1199"></child>
         </children>
     </item>
-    <item nodeId="node-1801">
+    <item nodeId="node-1199">
         <command xml:space="preserve">unlock orange door</command>
         <result xml:space="preserve">(with spare key)
 You unlock Orange door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1802"></child>
+        <children><child nodeId="node-1200"></child>
         </children>
     </item>
-    <item nodeId="node-1802">
+    <item nodeId="node-1200">
         <command xml:space="preserve">go through door</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1803"></child>
+        <children><child nodeId="node-1201"></child>
         </children>
     </item>
-    <item nodeId="node-1803">
+    <item nodeId="node-1201">
         <command xml:space="preserve">go through orange door</command>
         <result xml:space="preserve">(first opening Orange door)
 
@@ -1999,10 +2112,10 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1804"></child>
+        <children><child nodeId="node-1202"></child>
         </children>
     </item>
-    <item nodeId="node-1804">
+    <item nodeId="node-1202">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Grandmas entrance
@@ -2012,10 +2125,10 @@ You can see a wrench, Spare bell and Rubber duck here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1805"></child>
+        <children><child nodeId="node-1203"></child>
         </children>
     </item>
-    <item nodeId="node-1805">
+    <item nodeId="node-1203">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Hallway
@@ -2025,10 +2138,10 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1806"></child>
+        <children><child nodeId="node-1204"></child>
         </children>
     </item>
-    <item nodeId="node-1806">
+    <item nodeId="node-1204">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Bedroom
@@ -2038,46 +2151,46 @@ You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1807"></child>
+        <children><child nodeId="node-1205"></child>
         </children>
     </item>
-    <item nodeId="node-1807">
+    <item nodeId="node-1205">
         <command xml:space="preserve">x window</command>
         <result xml:space="preserve">Closed with a crancking handle, but it's stuck, you probably need a wrench in order to crank it open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1808"></child>
+        <children><child nodeId="node-1206"></child>
         </children>
     </item>
-    <item nodeId="node-1808">
+    <item nodeId="node-1206">
         <command xml:space="preserve">x stapler</command>
         <result xml:space="preserve">Seems like it could be good at hanging things up.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1809"></child>
+        <children><child nodeId="node-1207"></child>
         </children>
     </item>
-    <item nodeId="node-1809">
+    <item nodeId="node-1207">
         <command xml:space="preserve">take stapler</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1810"></child>
+        <children><child nodeId="node-1208"></child>
         </children>
     </item>
-    <item nodeId="node-1810">
+    <item nodeId="node-1208">
         <command xml:space="preserve">take broken bike horn</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1811"></child>
+        <children><child nodeId="node-1209"></child>
         </children>
     </item>
-    <item nodeId="node-1811">
+    <item nodeId="node-1209">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Hallway
@@ -2087,46 +2200,46 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1812"></child>
+        <children><child nodeId="node-1210"></child>
         </children>
     </item>
-    <item nodeId="node-1812">
+    <item nodeId="node-1210">
         <command xml:space="preserve">x wooden stool</command>
         <result xml:space="preserve">Small wooden stool. It can fold in on itself so you can carry it around. Pretty nice!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1813"></child>
+        <children><child nodeId="node-1211"></child>
         </children>
     </item>
-    <item nodeId="node-1813">
+    <item nodeId="node-1211">
         <command xml:space="preserve">take wooden stool</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1814"></child>
+        <children><child nodeId="node-1212"></child>
         </children>
     </item>
-    <item nodeId="node-1814">
+    <item nodeId="node-1212">
         <command xml:space="preserve">drop stool</command>
         <result xml:space="preserve">Dropped.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1815"></child>
+        <children><child nodeId="node-1213"></child>
         </children>
     </item>
-    <item nodeId="node-1815">
+    <item nodeId="node-1213">
         <command xml:space="preserve">take stool</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1816"></child>
+        <children><child nodeId="node-1214"></child>
         </children>
     </item>
-    <item nodeId="node-1816">
+    <item nodeId="node-1214">
         <command xml:space="preserve">x lamp</command>
         <result xml:space="preserve">Heavy metal lamp with a switch on the top. It's a really bright lamp, the light will probably leak through to grandma's room if you try and turn it on, so don't.
 
@@ -2134,37 +2247,37 @@ Lamp is currently switched off.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1817"></child>
+        <children><child nodeId="node-1215"></child>
         </children>
     </item>
-    <item nodeId="node-1817">
+    <item nodeId="node-1215">
         <command xml:space="preserve">x medals</command>
         <result xml:space="preserve">A bunch of old medals. The long neck straps seem good for tying down things.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1818"></child>
+        <children><child nodeId="node-1216"></child>
         </children>
     </item>
-    <item nodeId="node-1818">
+    <item nodeId="node-1216">
         <command xml:space="preserve">take medals</command>
         <result xml:space="preserve">You, scared that grabbing to many could make extra noise grab the first medal that you touch on the wall. You now have a medal.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1819"></child>
+        <children><child nodeId="node-1217"></child>
         </children>
     </item>
-    <item nodeId="node-1819">
+    <item nodeId="node-1217">
         <command xml:space="preserve">x table</command>
         <result xml:space="preserve">Nice old marble table, nothing much.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1820"></child>
+        <children><child nodeId="node-1218"></child>
         </children>
     </item>
-    <item nodeId="node-1820">
+    <item nodeId="node-1218">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Grandmas entrance
@@ -2174,64 +2287,64 @@ You can see a wrench, Spare bell and Rubber duck here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1821"></child>
+        <children><child nodeId="node-1219"></child>
         </children>
     </item>
-    <item nodeId="node-1821">
+    <item nodeId="node-1219">
         <command xml:space="preserve">x wrench</command>
         <result xml:space="preserve">This wrench seems really good at cranking things open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1822"></child>
+        <children><child nodeId="node-1220"></child>
         </children>
     </item>
-    <item nodeId="node-1822">
+    <item nodeId="node-1220">
         <command xml:space="preserve">take wrench</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1823"></child>
+        <children><child nodeId="node-1221"></child>
         </children>
     </item>
-    <item nodeId="node-1823">
+    <item nodeId="node-1221">
         <command xml:space="preserve">x spare bell</command>
         <result xml:space="preserve">I heard the cat playing with it earlier. It was prettly loud so I wouldn't go near it if I were you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1824"></child>
+        <children><child nodeId="node-1222"></child>
         </children>
     </item>
-    <item nodeId="node-1824">
+    <item nodeId="node-1222">
         <command xml:space="preserve">x rubber duck</command>
         <result xml:space="preserve">I heard the cat playing with it earlier. It was prettly loud so I wouldn't go near it if I were you.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1825"></child>
+        <children><child nodeId="node-1223"></child>
         </children>
     </item>
-    <item nodeId="node-1825">
+    <item nodeId="node-1223">
         <command xml:space="preserve">x hallway windows</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1826"></child>
+        <children><child nodeId="node-1224"></child>
         </children>
     </item>
-    <item nodeId="node-1826">
+    <item nodeId="node-1224">
         <command xml:space="preserve">x grandmas door</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1827"></child>
+        <children><child nodeId="node-1225"></child>
         </children>
     </item>
-    <item nodeId="node-1827">
+    <item nodeId="node-1225">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Hallway
@@ -2241,10 +2354,10 @@ You can see Orange door and Lamp here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1828"></child>
+        <children><child nodeId="node-1226"></child>
         </children>
     </item>
-    <item nodeId="node-1828">
+    <item nodeId="node-1226">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Bedroom
@@ -2254,82 +2367,82 @@ You can see Orange door, Window, Despair and Records here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1829"></child>
+        <children><child nodeId="node-1227"></child>
         </children>
     </item>
-    <item nodeId="node-1829">
+    <item nodeId="node-1227">
         <command xml:space="preserve">crank window open</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1830"></child>
+        <children><child nodeId="node-1228"></child>
         </children>
     </item>
-    <item nodeId="node-1830">
+    <item nodeId="node-1228">
         <command xml:space="preserve">open window</command>
         <result xml:space="preserve">It seems to be locked.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1831"></child>
+        <children><child nodeId="node-1229"></child>
         </children>
     </item>
-    <item nodeId="node-1831">
+    <item nodeId="node-1229">
         <command xml:space="preserve">unlcok window</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1832"></child>
+        <children><child nodeId="node-1230"></child>
         </children>
     </item>
-    <item nodeId="node-1832">
+    <item nodeId="node-1230">
         <command xml:space="preserve">unlock window</command>
         <result xml:space="preserve">What do you want to unlock Window with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1833"></child>
+        <children><child nodeId="node-1231"></child>
         </children>
     </item>
-    <item nodeId="node-1833">
+    <item nodeId="node-1231">
         <command xml:space="preserve">wrench</command>
         <result xml:space="preserve">You unlock Window.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1834"></child>
+        <children><child nodeId="node-1232"></child>
         </children>
     </item>
-    <item nodeId="node-1834">
+    <item nodeId="node-1232">
         <command xml:space="preserve">down</command>
         <result xml:space="preserve">You gotta open the window before you can get down there! I know the crank is tight, but can't you find a wrench or something?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1835"></child>
+        <children><child nodeId="node-1233"></child>
         </children>
     </item>
-    <item nodeId="node-1835">
+    <item nodeId="node-1233">
         <command xml:space="preserve">open window</command>
         <result xml:space="preserve">You open Window.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1836"></child>
+        <children><child nodeId="node-1234"></child>
         </children>
     </item>
-    <item nodeId="node-1836">
+    <item nodeId="node-1234">
         <command xml:space="preserve">down</command>
         <result xml:space="preserve">You're gona kill yourself kid! Haven't you seen the movies, at least attach the rope to something and slide down on that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1837"></child>
+        <children><child nodeId="node-1235"></child>
         </children>
     </item>
-    <item nodeId="node-1837">
+    <item nodeId="node-1235">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   a wrench
@@ -2341,103 +2454,103 @@ You can see Orange door, Window, Despair and Records here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1838"></child>
+        <children><child nodeId="node-1236"></child>
         </children>
     </item>
-    <item nodeId="node-1838">
+    <item nodeId="node-1236">
         <command xml:space="preserve">x broken bike horn</command>
         <result xml:space="preserve">The ringer is broken, however it seems like it could still be attached to any poles about as thick as the bedside table's legs with the comand combine.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1839"></child>
+        <children><child nodeId="node-1237"></child>
         </children>
     </item>
-    <item nodeId="node-1839">
+    <item nodeId="node-1237">
         <command xml:space="preserve">combine broken bike horn with beside table</command>
         <result xml:space="preserve">I didn't understand that sentence.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1840"></child>
+        <children><child nodeId="node-1238"></child>
         </children>
     </item>
-    <item nodeId="node-1840">
+    <item nodeId="node-1238">
         <command xml:space="preserve">combine broken bike horn</command>
         <result xml:space="preserve">What do you want to combine Broken bike horn to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1841"></child>
+        <children><child nodeId="node-1239"></child>
         </children>
     </item>
-    <item nodeId="node-1841">
+    <item nodeId="node-1239">
         <command xml:space="preserve">besdie table</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1842"></child>
+        <children><child nodeId="node-1240"></child>
         </children>
     </item>
-    <item nodeId="node-1842">
+    <item nodeId="node-1240">
         <command xml:space="preserve">combine broken bike horn to bedside table</command>
         <result xml:space="preserve">You fuse together Broken bike horn and Bedside table.
 You have made Hook!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1843"></child>
+        <children><child nodeId="node-1241"></child>
         </children>
     </item>
-    <item nodeId="node-1843">
+    <item nodeId="node-1241">
         <command xml:space="preserve">down</command>
         <result xml:space="preserve">You're gona kill yourself kid! Haven't you seen the movies, at least attach the rope to something and slide down on that.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1844"></child>
+        <children><child nodeId="node-1242"></child>
         </children>
     </item>
-    <item nodeId="node-1844">
+    <item nodeId="node-1242">
         <command xml:space="preserve">combine medal to hook</command>
         <result xml:space="preserve">You fuse together Medal and Hook.
 You have made Hanger!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1845"></child>
+        <children><child nodeId="node-1243"></child>
         </children>
     </item>
-    <item nodeId="node-1845">
+    <item nodeId="node-1243">
         <command xml:space="preserve">x hanger</command>
         <result xml:space="preserve">Great now you have a big enough loop to attach all your sheets to!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1846"></child>
+        <children><child nodeId="node-1244"></child>
         </children>
     </item>
-    <item nodeId="node-1846">
+    <item nodeId="node-1244">
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">Cough... cough... These sheets our even dustier than I thought!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1847"></child>
+        <children><child nodeId="node-1245"></child>
         </children>
     </item>
-    <item nodeId="node-1847">
+    <item nodeId="node-1245">
         <command xml:space="preserve">combine sheets to hanger</command>
         <result xml:space="preserve">You fuse together Sheets and Hanger.
 You have made Homemade rope!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1848"></child>
+        <children><child nodeId="node-1246"></child>
         </children>
     </item>
-    <item nodeId="node-1848">
+    <item nodeId="node-1246">
         <command xml:space="preserve">down</command>
         <result xml:space="preserve">You swing down the outside of the house, feeling the cool night breeze softly landing on the grass outside.
 
@@ -2449,44 +2562,44 @@ You can see Window here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1120">
+    <item nodeId="node-1247">
         <command xml:space="preserve">take spar</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1121"></child>
+        <children><child nodeId="node-1248"></child>
         </children>
     </item>
-    <item nodeId="node-1121">
+    <item nodeId="node-1248">
         <command xml:space="preserve">take spare</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1122"></child>
+        <children><child nodeId="node-1249"></child>
         </children>
     </item>
-    <item nodeId="node-1122">
+    <item nodeId="node-1249">
         <command xml:space="preserve">unlock orange</command>
         <result xml:space="preserve">(with spare key)
 You unlock Orange door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1123"></child>
+        <children><child nodeId="node-1250"></child>
         </children>
     </item>
-    <item nodeId="node-1123">
+    <item nodeId="node-1250">
         <command xml:space="preserve">open orange</command>
         <result xml:space="preserve">You open Orange door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1124"></child>
+        <children><child nodeId="node-1251"></child>
         </children>
     </item>
-    <item nodeId="node-1124">
+    <item nodeId="node-1251">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Hallway
@@ -2496,64 +2609,64 @@ You can see Orange door and Wooden stool here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1125"></child>
+        <children><child nodeId="node-1252"></child>
         </children>
     </item>
-    <item nodeId="node-1125">
+    <item nodeId="node-1252">
         <command xml:space="preserve">stand on wooden stool</command>
         <result xml:space="preserve">That's not something you can stand on.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1126"></child>
+        <children><child nodeId="node-1253"></child>
         </children>
     </item>
-    <item nodeId="node-1126">
+    <item nodeId="node-1253">
         <command xml:space="preserve">stand stool</command>
         <result xml:space="preserve">I only understood you as far as wanting to stand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1127"></child>
+        <children><child nodeId="node-1254"></child>
         </children>
     </item>
-    <item nodeId="node-1127">
+    <item nodeId="node-1254">
         <command xml:space="preserve">stand wooden stool</command>
         <result xml:space="preserve">I only understood you as far as wanting to stand.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1128">
+    <item nodeId="node-1255">
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">I would have to feel around for a key, and I'm too scared to put my hand underneath this dark bed without something to kill any bugs that might jump out.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1132"></child>
-            <child nodeId="node-1129"></child>
+        <children><child nodeId="node-1259"></child>
+            <child nodeId="node-1256"></child>
         </children>
     </item>
-    <item nodeId="node-1129">
+    <item nodeId="node-1256">
         <command xml:space="preserve">take broken disk</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1130"></child>
+        <children><child nodeId="node-1257"></child>
         </children>
     </item>
-    <item nodeId="node-1130">
+    <item nodeId="node-1257">
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">You feel around under the bed with your disc shard ready, and you feel it... the Spare Key! You now have the spare key!
 Cough... cough... These sheets our even dustier than I thought!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1131"></child>
+        <children><child nodeId="node-1258"></child>
         </children>
     </item>
-    <item nodeId="node-1131">
+    <item nodeId="node-1258">
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">You feel around under the bed with your disc shard ready, and you feel it... the Spare Key! You now have the spare key!
 Cough... cough... These sheets our even dustier than I thought!
@@ -2561,185 +2674,185 @@ Cough... cough... These sheets our even dustier than I thought!
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1132">
+    <item nodeId="node-1259">
         <command xml:space="preserve"></command>
         <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1133"></child>
+        <children><child nodeId="node-1260"></child>
         </children>
     </item>
-    <item nodeId="node-1133">
+    <item nodeId="node-1260">
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">&gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1134"></child>
+        <children><child nodeId="node-1261"></child>
         </children>
     </item>
-    <item nodeId="node-1134">
+    <item nodeId="node-1261">
         <command xml:space="preserve">x sheets</command>
         <result xml:space="preserve">These long sheets make it easy to hide something, of course to find anything you'd have to lift the sheets...
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1135">
+    <item nodeId="node-1262">
         <command xml:space="preserve">take records</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1136"></child>
+        <children><child nodeId="node-1263"></child>
         </children>
     </item>
-    <item nodeId="node-1136">
+    <item nodeId="node-1263">
         <command xml:space="preserve">break records</command>
         <result xml:space="preserve">Violence isn't the answer to this one.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1137"></child>
+        <children><child nodeId="node-1264"></child>
         </children>
     </item>
-    <item nodeId="node-1137">
+    <item nodeId="node-1264">
         <command xml:space="preserve">break something</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1138"></child>
+        <children><child nodeId="node-1265"></child>
         </children>
     </item>
-    <item nodeId="node-1138">
+    <item nodeId="node-1265">
         <command xml:space="preserve">break bed</command>
         <result xml:space="preserve">Violence isn't the answer to this one.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1139"></child>
+        <children><child nodeId="node-1266"></child>
         </children>
     </item>
-    <item nodeId="node-1139">
+    <item nodeId="node-1266">
         <command xml:space="preserve">break records</command>
         <result xml:space="preserve">Violence isn't the answer to this one.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1140">
+    <item nodeId="node-1267">
         <command xml:space="preserve">take imaginary cookie</command>
         <result xml:space="preserve">Are you going delusional, the cookies are downstairs, you can't eat dreams!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1141"></child>
+        <children><child nodeId="node-1268"></child>
         </children>
     </item>
-    <item nodeId="node-1141">
+    <item nodeId="node-1268">
         <command xml:space="preserve">x imaginary cookie</command>
         <result xml:space="preserve">I can just imagine breaking off a nice piece with lots of chocolate chunks... theres probably something else that can break like a cookie in this room...
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1142"></child>
+        <children><child nodeId="node-1269"></child>
         </children>
     </item>
-    <item nodeId="node-1142">
+    <item nodeId="node-1269">
         <command xml:space="preserve">take records</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1143"></child>
+        <children><child nodeId="node-1270"></child>
         </children>
     </item>
-    <item nodeId="node-1143">
+    <item nodeId="node-1270">
         <command xml:space="preserve">break records</command>
         <result xml:space="preserve">Violence isn't the answer to this one.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1144"></child>
+        <children><child nodeId="node-1271"></child>
         </children>
     </item>
-    <item nodeId="node-1144">
+    <item nodeId="node-1271">
         <command xml:space="preserve">break records</command>
         <result xml:space="preserve">Violence isn't the answer to this one.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1145">
+    <item nodeId="node-1272">
         <command xml:space="preserve">take broken disk</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1146"></child>
+        <children><child nodeId="node-1273"></child>
         </children>
     </item>
-    <item nodeId="node-1146">
+    <item nodeId="node-1273">
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">You feel around under the bed with your disc shard ready, and you feel it... the Spare Key! You now have Spare!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1147">
+    <item nodeId="node-1274">
         <command xml:space="preserve">take all</command>
         <result xml:space="preserve">There are none at all available!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1148"></child>
+        <children><child nodeId="node-1275"></child>
         </children>
     </item>
-    <item nodeId="node-1148">
+    <item nodeId="node-1275">
         <command xml:space="preserve">take broken disc</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1149"></child>
+        <children><child nodeId="node-1276"></child>
         </children>
     </item>
-    <item nodeId="node-1149">
+    <item nodeId="node-1276">
         <command xml:space="preserve">take broken disk</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1150"></child>
+        <children><child nodeId="node-1277"></child>
         </children>
     </item>
-    <item nodeId="node-1150">
+    <item nodeId="node-1277">
         <command xml:space="preserve">take spare</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1151"></child>
+        <children><child nodeId="node-1278"></child>
         </children>
     </item>
-    <item nodeId="node-1151">
+    <item nodeId="node-1278">
         <command xml:space="preserve">take break</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1152">
+    <item nodeId="node-1279">
         <command xml:space="preserve">open window</command>
         <result xml:space="preserve">You open Window.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1173"></child>
-            <child nodeId="node-1153"></child>
+        <children><child nodeId="node-1300"></child>
+            <child nodeId="node-1280"></child>
         </children>
     </item>
-    <item nodeId="node-1153">
+    <item nodeId="node-1280">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Landing Zone
@@ -2747,11 +2860,11 @@ You can see Window here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1158"></child>
-            <child nodeId="node-1154"></child>
+        <children><child nodeId="node-1285"></child>
+            <child nodeId="node-1281"></child>
         </children>
     </item>
-    <item nodeId="node-1154">
+    <item nodeId="node-1281">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Bedroom
@@ -2761,10 +2874,10 @@ You can see Window, Orange door, Stapler, Broken bike horn, Despair and Records 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1155"></child>
+        <children><child nodeId="node-1282"></child>
         </children>
     </item>
-    <item nodeId="node-1155">
+    <item nodeId="node-1282">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Landing Zone
@@ -2772,36 +2885,36 @@ You can see Window here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1156"></child>
+        <children><child nodeId="node-1283"></child>
         </children>
     </item>
-    <item nodeId="node-1156">
+    <item nodeId="node-1283">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1157"></child>
+        <children><child nodeId="node-1284"></child>
         </children>
     </item>
-    <item nodeId="node-1157">
+    <item nodeId="node-1284">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1158">
+    <item nodeId="node-1285">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Light Zone
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1159"></child>
+        <children><child nodeId="node-1286"></child>
         </children>
     </item>
-    <item nodeId="node-1159">
+    <item nodeId="node-1286">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Front Porch
@@ -2809,20 +2922,20 @@ You can see Outside door here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1162"></child>
-            <child nodeId="node-1160"></child>
+        <children><child nodeId="node-1289"></child>
+            <child nodeId="node-1287"></child>
         </children>
     </item>
-    <item nodeId="node-1160">
+    <item nodeId="node-1287">
         <command xml:space="preserve">open outside door</command>
         <result xml:space="preserve">You open Outside door.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1161"></child>
+        <children><child nodeId="node-1288"></child>
         </children>
     </item>
-    <item nodeId="node-1161">
+    <item nodeId="node-1288">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Kitchen
@@ -2831,62 +2944,62 @@ You can see Outside door here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1162">
+    <item nodeId="node-1289">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1163"></child>
+        <children><child nodeId="node-1290"></child>
         </children>
     </item>
-    <item nodeId="node-1163">
+    <item nodeId="node-1290">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1164"></child>
+        <children><child nodeId="node-1291"></child>
         </children>
     </item>
-    <item nodeId="node-1164">
+    <item nodeId="node-1291">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1165"></child>
+        <children><child nodeId="node-1292"></child>
         </children>
     </item>
-    <item nodeId="node-1165">
+    <item nodeId="node-1292">
         <command xml:space="preserve">open outside door</command>
         <result xml:space="preserve">You must name something more substantial.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1166"></child>
+        <children><child nodeId="node-1293"></child>
         </children>
     </item>
-    <item nodeId="node-1166">
+    <item nodeId="node-1293">
         <command xml:space="preserve">open outside</command>
         <result xml:space="preserve">You must name something more substantial.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1167"></child>
+        <children><child nodeId="node-1294"></child>
         </children>
     </item>
-    <item nodeId="node-1167">
+    <item nodeId="node-1294">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Light Zone
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1168"></child>
+        <children><child nodeId="node-1295"></child>
         </children>
     </item>
-    <item nodeId="node-1168">
+    <item nodeId="node-1295">
         <command xml:space="preserve">s</command>
         <result xml:space="preserve">
 Landing Zone
@@ -2894,20 +3007,20 @@ You can see Window here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1169"></child>
+        <children><child nodeId="node-1296"></child>
         </children>
     </item>
-    <item nodeId="node-1169">
+    <item nodeId="node-1296">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Woods
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1170"></child>
+        <children><child nodeId="node-1297"></child>
         </children>
     </item>
-    <item nodeId="node-1170">
+    <item nodeId="node-1297">
         <command xml:space="preserve">w</command>
         <result xml:space="preserve">
 Landing Zone
@@ -2915,20 +3028,20 @@ You can see Window here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1171"></child>
+        <children><child nodeId="node-1298"></child>
         </children>
     </item>
-    <item nodeId="node-1171">
+    <item nodeId="node-1298">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Light Zone
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1172"></child>
+        <children><child nodeId="node-1299"></child>
         </children>
     </item>
-    <item nodeId="node-1172">
+    <item nodeId="node-1299">
         <command xml:space="preserve">n</command>
         <result xml:space="preserve">
 Front Porch
@@ -2936,16 +3049,16 @@ Front Porch
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1173">
+    <item nodeId="node-1300">
         <command xml:space="preserve">down</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1174"></child>
+        <children><child nodeId="node-1301"></child>
         </children>
     </item>
-    <item nodeId="node-1174">
+    <item nodeId="node-1301">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Landing Zone
@@ -2953,10 +3066,10 @@ You can see Window here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1175"></child>
+        <children><child nodeId="node-1302"></child>
         </children>
     </item>
-    <item nodeId="node-1175">
+    <item nodeId="node-1302">
         <command xml:space="preserve">up</command>
         <result xml:space="preserve">
 Bedroom
@@ -2966,28 +3079,28 @@ You can see Window, Orange door, Stapler, Broken bike horn, Despair and Records 
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1176"></child>
+        <children><child nodeId="node-1303"></child>
         </children>
     </item>
-    <item nodeId="node-1176">
+    <item nodeId="node-1303">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1177"></child>
+        <children><child nodeId="node-1304"></child>
         </children>
     </item>
-    <item nodeId="node-1177">
+    <item nodeId="node-1304">
         <command xml:space="preserve">down</command>
         <result xml:space="preserve">You can't go that way.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1178"></child>
+        <children><child nodeId="node-1305"></child>
         </children>
     </item>
-    <item nodeId="node-1178">
+    <item nodeId="node-1305">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Landing Zone
@@ -2995,10 +3108,10 @@ You can see Window here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1179"></child>
+        <children><child nodeId="node-1306"></child>
         </children>
     </item>
-    <item nodeId="node-1179">
+    <item nodeId="node-1306">
         <command xml:space="preserve">up</command>
         <result xml:space="preserve">
 Bedroom
@@ -3009,25 +3122,25 @@ You can see Window, Orange door, Stapler, Broken bike horn, Despair and Records 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1180">
+    <item nodeId="node-1307">
         <command xml:space="preserve">open windo</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1181"></child>
+        <children><child nodeId="node-1308"></child>
         </children>
     </item>
-    <item nodeId="node-1181">
+    <item nodeId="node-1308">
         <command xml:space="preserve">open window</command>
         <result xml:space="preserve">You open Window.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1182"></child>
+        <children><child nodeId="node-1309"></child>
         </children>
     </item>
-    <item nodeId="node-1182">
+    <item nodeId="node-1309">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">
 Landing Zone
@@ -3036,25 +3149,25 @@ You can see Window here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1183">
+    <item nodeId="node-1310">
         <command xml:space="preserve">open glass</command>
         <result xml:space="preserve">You open Window.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1184"></child>
+        <children><child nodeId="node-1311"></child>
         </children>
     </item>
-    <item nodeId="node-1184">
+    <item nodeId="node-1311">
         <command xml:space="preserve">open window</command>
         <result xml:space="preserve">That's already open.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1185"></child>
+        <children><child nodeId="node-1312"></child>
         </children>
     </item>
-    <item nodeId="node-1185">
+    <item nodeId="node-1312">
         <command xml:space="preserve">e</command>
         <result xml:space="preserve">
 Landing Zone
@@ -3063,118 +3176,118 @@ You can see Window here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1186">
+    <item nodeId="node-1313">
         <command xml:space="preserve">lift sheets</command>
         <result xml:space="preserve">I would have to feel around for a key, and I'm too scared to put my hand underneath this dark bed without something to kill any bugs that might jump out.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1187"></child>
+        <children><child nodeId="node-1314"></child>
         </children>
     </item>
-    <item nodeId="node-1187">
+    <item nodeId="node-1314">
         <command xml:space="preserve">take broken disk</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1188"></child>
+        <children><child nodeId="node-1315"></child>
         </children>
     </item>
-    <item nodeId="node-1188">
+    <item nodeId="node-1315">
         <command xml:space="preserve">lift sheets</command>
         <result xml:space="preserve">You feel around under the bed with your disc shard ready, and you feel it... the Spare Key! You now have Spare!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1251">
+    <item nodeId="node-1316">
         <command xml:space="preserve">d</command>
         <result xml:space="preserve">You gotta open the window before you can get down there! I know the crank is tight, but can't you find a wrench or something?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1253"></child>
+        <children><child nodeId="node-1317"></child>
         </children>
     </item>
-    <item nodeId="node-1253">
+    <item nodeId="node-1317">
         <command xml:space="preserve">attach broken bike horn</command>
         <result xml:space="preserve">What do you want to attach Broken bike horn to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1254"></child>
+        <children><child nodeId="node-1318"></child>
         </children>
     </item>
-    <item nodeId="node-1254">
+    <item nodeId="node-1318">
         <command xml:space="preserve">bedside table</command>
         <result xml:space="preserve">You would achieve nothing by this.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1255"></child>
+        <children><child nodeId="node-1319"></child>
         </children>
     </item>
-    <item nodeId="node-1255">
+    <item nodeId="node-1319">
         <command xml:space="preserve">bedside tabel</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1256"></child>
+        <children><child nodeId="node-1320"></child>
         </children>
     </item>
-    <item nodeId="node-1256">
+    <item nodeId="node-1320">
         <command xml:space="preserve">attach bedside table</command>
         <result xml:space="preserve">What do you want to attach Bedside table to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1257"></child>
+        <children><child nodeId="node-1321"></child>
         </children>
     </item>
-    <item nodeId="node-1257">
+    <item nodeId="node-1321">
         <command xml:space="preserve">broken bike horn</command>
         <result xml:space="preserve">You would achieve nothing by this.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1189">
+    <item nodeId="node-1322">
         <command xml:space="preserve">combine broken bike horn</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1190"></child>
+        <children><child nodeId="node-1323"></child>
         </children>
     </item>
-    <item nodeId="node-1190">
+    <item nodeId="node-1323">
         <command xml:space="preserve">attach broken bike horn</command>
         <result xml:space="preserve">What do you want to attach Broken bike horn to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1191"></child>
+        <children><child nodeId="node-1324"></child>
         </children>
     </item>
-    <item nodeId="node-1191">
+    <item nodeId="node-1324">
         <command xml:space="preserve">bedside table</command>
         <result xml:space="preserve">You would achieve nothing by this.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1449">
+    <item nodeId="node-1325">
         <command xml:space="preserve">combine bedside table</command>
         <result xml:space="preserve">What do you want to combine Bedside table to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1450"></child>
+        <children><child nodeId="node-1326"></child>
         </children>
     </item>
-    <item nodeId="node-1450">
+    <item nodeId="node-1326">
         <command xml:space="preserve">broken bike horn</command>
         <result xml:space="preserve">You fuse together Bedside table and Broken bike horn.
 You have made Hook!
@@ -3182,17 +3295,17 @@ You have made Hook!
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1192">
+    <item nodeId="node-1327">
         <command xml:space="preserve">break records</command>
         <result xml:space="preserve">You shater the record on your bed and quickly clean up all the peices except for one large one which you keep to protect you from the bugs. You should be carefully, thankfully the walls kept you safe, but if you had done something this loud in the hallway, grandma would have waken up.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1193"></child>
-            <child nodeId="node-1793"></child>
+        <children><child nodeId="node-1329"></child>
+            <child nodeId="node-1328"></child>
         </children>
     </item>
-    <item nodeId="node-1793">
+    <item nodeId="node-1328">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Bedroom
 Completely dark, you lie on your bed. The wall arcross from you has an orange door. To your left is a bedside table  with a stapler on it .  There is also a broken bike horn .  You can feel the despair in the room taking shape as an imaginary cookie that is out of reach.  Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key...
@@ -3202,131 +3315,131 @@ You can see Orange door, Window, Stapler, Broken bike horn and Despair here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1193">
+    <item nodeId="node-1329">
         <command xml:space="preserve">break reords</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1194"></child>
+        <children><child nodeId="node-1330"></child>
         </children>
     </item>
-    <item nodeId="node-1194">
+    <item nodeId="node-1330">
         <command xml:space="preserve">take records</command>
         <result xml:space="preserve">Taken.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1195"></child>
+        <children><child nodeId="node-1331"></child>
         </children>
     </item>
-    <item nodeId="node-1195">
+    <item nodeId="node-1331">
         <command xml:space="preserve">break records</command>
         <result xml:space="preserve">Violence isn't the answer to this one.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1196">
+    <item nodeId="node-1332">
         <command xml:space="preserve">attach broken bike horn to bedside table</command>
         <result xml:space="preserve">You would achieve nothing by this.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1197"></child>
+        <children><child nodeId="node-1333"></child>
         </children>
     </item>
-    <item nodeId="node-1197">
+    <item nodeId="node-1333">
         <command xml:space="preserve">combine broken bike horn and bedside table</command>
         <result xml:space="preserve">You can't use multiple objects with that verb.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1198"></child>
+        <children><child nodeId="node-1334"></child>
         </children>
     </item>
-    <item nodeId="node-1198">
+    <item nodeId="node-1334">
         <command xml:space="preserve">combine broken bike horn</command>
         <result xml:space="preserve">What do you want to combine Broken bike horn with?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1199"></child>
+        <children><child nodeId="node-1335"></child>
         </children>
     </item>
-    <item nodeId="node-1199">
+    <item nodeId="node-1335">
         <command xml:space="preserve">bedside table</command>
         <result xml:space="preserve">You fuse together Broken bike horn and Bedside table.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1200"></child>
+        <children><child nodeId="node-1336"></child>
         </children>
     </item>
-    <item nodeId="node-1200">
+    <item nodeId="node-1336">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying:
   Hook
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1201"></child>
+        <children><child nodeId="node-1337"></child>
         </children>
     </item>
-    <item nodeId="node-1201">
+    <item nodeId="node-1337">
         <command xml:space="preserve">x hook</command>
         <result xml:space="preserve">Now you've made a hook that you can tie things to. This will be super good for climbing out the window.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1202">
+    <item nodeId="node-1338">
         <command xml:space="preserve">attach broken bike horn</command>
         <result xml:space="preserve">What do you want to attach Broken bike horn to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1203"></child>
+        <children><child nodeId="node-1339"></child>
         </children>
     </item>
-    <item nodeId="node-1203">
+    <item nodeId="node-1339">
         <command xml:space="preserve">bedside table</command>
         <result xml:space="preserve">You would achieve nothing by this.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1204"></child>
+        <children><child nodeId="node-1340"></child>
         </children>
     </item>
-    <item nodeId="node-1204">
+    <item nodeId="node-1340">
         <command xml:space="preserve">combine broken bike horn</command>
         <result xml:space="preserve">What do you want to combine Broken bike horn to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1218"></child>
+        <children><child nodeId="node-1341"></child>
         </children>
     </item>
-    <item nodeId="node-1218">
+    <item nodeId="node-1341">
         <command xml:space="preserve">bedside table</command>
         <result xml:space="preserve">You fuse together Broken bike horn and Bedside table.
 You have made Hook!
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1223"></child>
+        <children><child nodeId="node-1342"></child>
         </children>
     </item>
-    <item nodeId="node-1223">
+    <item nodeId="node-1342">
         <command xml:space="preserve">i</command>
         <result xml:space="preserve">You are carrying nothing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1224"></child>
+        <children><child nodeId="node-1343"></child>
         </children>
     </item>
-    <item nodeId="node-1224">
+    <item nodeId="node-1343">
         <command xml:space="preserve">l</command>
         <result xml:space="preserve">Bedroom
 Completely dark, you lie on your bed. The wall arcross from you has a locked orange door, bloking your exit. To your left is a bedside table with a stapler and broken bike horn on it. Some records lie in the corner next to the window. You can feel the despair in the room taking shape as an imaginary cookie that is out of reach. Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key...
@@ -3336,70 +3449,70 @@ You can see Hook, Orange door, Window, Stapler, Despair and Records here.
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
     </item>
-    <item nodeId="node-1451">
+    <item nodeId="node-1344">
         <command xml:space="preserve">attach bedside table</command>
         <result xml:space="preserve">What do you want to attach Bedside table to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1452"></child>
+        <children><child nodeId="node-1345"></child>
         </children>
     </item>
-    <item nodeId="node-1452">
+    <item nodeId="node-1345">
         <command xml:space="preserve">broken bike horn</command>
         <result xml:space="preserve">You would achieve nothing by this.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1453"></child>
+        <children><child nodeId="node-1346"></child>
         </children>
     </item>
-    <item nodeId="node-1453">
+    <item nodeId="node-1346">
         <command xml:space="preserve">attach bedside table</command>
         <result xml:space="preserve">What do you want to attach Bedside table to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1454"></child>
+        <children><child nodeId="node-1347"></child>
         </children>
     </item>
-    <item nodeId="node-1454">
+    <item nodeId="node-1347">
         <command xml:space="preserve">combine broken bike horn</command>
         <result xml:space="preserve">You can't see any such thing.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1455"></child>
+        <children><child nodeId="node-1348"></child>
         </children>
     </item>
-    <item nodeId="node-1455">
+    <item nodeId="node-1348">
         <command xml:space="preserve">combine broken bike horn</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1456"></child>
+        <children><child nodeId="node-1349"></child>
         </children>
     </item>
-    <item nodeId="node-1456">
+    <item nodeId="node-1349">
         <command xml:space="preserve">combine bedside table</command>
         <result xml:space="preserve">That's not a verb I recognise.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1457"></child>
+        <children><child nodeId="node-1350"></child>
         </children>
     </item>
-    <item nodeId="node-1457">
+    <item nodeId="node-1350">
         <command xml:space="preserve">attach bedside table</command>
         <result xml:space="preserve">What do you want to attach Bedside table to?
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1458"></child>
+        <children><child nodeId="node-1351"></child>
         </children>
     </item>
-    <item nodeId="node-1458">
+    <item nodeId="node-1351">
         <command xml:space="preserve">broken bike horn</command>
         <result xml:space="preserve">You would achieve nothing by this.
 

@@ -133,7 +133,7 @@ Instead of going down:
 
 Hallway is a room. Hallway is west of Orange. The description is "There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room. [if player is not carrying wooden stool] There's a small wooden stool grandma stands on to clean the windows since their to tall for her. [end if] There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!"
 
-Wooden stool is a thing in Hallway. The description is "Small wooden stool. It can fold in on itself so you can carry it around. Pretty nice!" 
+Wooden stool is a supporter in Hallway. The Wooden stool is not fixed in place. Stool is enterable. The description is "Small wooden stool. It can fold in on itself so you can carry it around. Pretty nice!" 
 Understand "stool" as wooden stool.
 
 Marble is scenery in hallway. The description is "Nice old marble table, nothing much.".
@@ -183,7 +183,9 @@ The wrench unlocks the stairs. The wrench is in Grandmas entrance. The descripti
 [Rooms for last puzzle]
 Landing Zone is a room. Landing zone is east of Glass. The description is "You are now outside at, there is a cool breeze and moonlight illuminating the grass. To the east you see the woods and north brings you towards the door, which leads to the kitchen... and the cookies!!"
 
-Woods is a room. Woods is east of Landing zone. The description is "Its just grass. Oh look it's the cat, he's playing with a pile of leaves. I love the cat. Whats that? Did I just hear the cat speak to me??"
+Grass is scenery in Landing zone. The description is "Green blades blowing in the wind".
+
+Woods is a room. Woods is east of Landing zone. The description is "It's just a plain field. Oh look it's the cat, he's playing with a pile of leaves. I love the cat. Whats that? Did I just hear the cat speak to me??"
 
 Cat is a man in woods. The description is "Just a regular black cat playing in the leaves. It also talks, wadda ya know!"
 
@@ -198,13 +200,26 @@ Leaves are a thing in woods. The description is "Large thick leaves that look li
 
 Light Zone is a room. Light zone is north of Landing zone. "Between landing zone and the door to the kitchen. [if leaves are not in light zone] Wait! Theres a motion activated light north of here between here and the front porch with the door on it. If you go that way the light with give you away!"
 
+Bright is a thing in light zone. The printed name is "Light". The description is "Motion activated, and bright enough to take up grandma. Advance with caution."
+Understand "light" as bright.
+Instead of taking bright:
+	if leaves are not in light zone:
+		say "you move towards the lights and bam... I think those are footsteps I hear coming down the stairs";
+		end the story finally;
+	Otherwise:
+		say "You carefully remove the light under the safety of the leaves...";
+		now player has bright.	
+
 Understand "staple [something]" as dropping. 
 Instead of dropping:
 	if noun is leaves:
 		say "You staple the leaves to the wall bloking the light from reaching upstairs. Now safely go to the porch up north!";
 		now noun is in location;
 	otherwise:
-		say "I think you should try stapling something else. You're on the right track though!".	
+		if noun is stool:
+			say "You quietly place down the stool.";
+		otherwise:	
+			say "I think you should try stapling something else. You're on the right track though!".	
 		
 Instead of going to front porch:
 	if leaves are in light zone:
@@ -214,9 +229,23 @@ Instead of going to front porch:
 		say "The light turns on, and grandma's six sence wakes her up... Looks like you'll never even see cookies at grandma's house again.";
 		end the story finally.	
 
-Front Porch is a room. Front Porch is north of Light Zone. 
+Front Porch is a room. Front Porch is north of Light Zone. "Your right in front of Green door now! Lucky for you grandma doesn't lock this door. (She isn't scared of getting robbed, but is scared of you running around in the woods a night)"
 
-Kitchen is a room. Kitchen is west of of Green. 
+Kitchen is a room. Kitchen is west of of Green. The description of kitchen is "You've made it! [if player is not carrying bright] However it's really dark and you can't find the cookies. All you have to do is take them, but stubbling around could wake up grandma! [end if] [if player has bright] You see the cookies on the top shelf above the sink. Now the only question is, how are you going to reach them? [end if]".
+
+
+Cookies are a thing in kitchen. Cookies are undescribed. The description is "Declicious amazing, soft, chocolate chip cookies!"
+Understand "eat [something]" as taking.
+Instead of taking cookies:
+	if player is not carrying bright:
+		say "You search the counters feriously feeling for the cookies and then you nock grandmas favorite vase on the floor!!! Right after the falling sound you see an upstairs light turn on... You were so close, you just needed a light!";
+		end the story finally;
+	otherwise:
+		if player is on wooden stool:
+			say "You reach up safely feel the crumbly, soft, mouth watering, delicious cookies. Nothing could have made this day better!";
+			end the story finally;
+		otherwise:
+			say "You can see them now, but you cant reach them!".		
 
 Green is a door. Green is west of Front Porch. The printed name is "Outside door". 
 Understand "Outside door" as Green. The description is "A really green door."
