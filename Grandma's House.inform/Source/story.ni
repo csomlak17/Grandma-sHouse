@@ -30,6 +30,8 @@ Broken bike horn is a thing in bedroom. The description is "The ringer is broken
 
 Sheets is a thing in bedroom. Sheets are undescribed. The description is "These long sheets make it easy to hide something, of course to find anything you'd have to lift the sheets...".
 
+Understand "crank [something] with [something]" as unlocking it with. 
+Understand "crank open [something] with [something]" as unlocking it with.
 Glass is a door. Glass is down of bedroom. Glass is locked and lockable. The printed name of glass is "Window". The wrench unlocks glass. The description of glass is "Closed with a crancking handle, but it's stuck, you probably need a wrench in order to crank it open."
 Understand "Window" as Glass.
 
@@ -118,26 +120,24 @@ Homemade rope is an object. The description is "Just like in the movies you have
 
 Instead of going down:
 	if Glass is closed:
-		say "You gotta open the window before you can get down there! I know the crank is tight, but can't you find a wrench or something?";
+		say "You gotta open the window before you can get down there!";
 	otherwise:
 		if Homemade rope is in bedroom:
 			say "You swing down the outside of the house, feeling the cool night breeze softly landing on the grass outside.";
 			now player is in Landing zone;
 		otherwise:
-			say "You're gona kill yourself kid! Haven't you seen the movies, at least attach the rope to something and slide down on that.".
+			say "You're gona kill yourself kid! Haven't you seen the movies, at least make a homemade rope out of the sheets and slide down on that.".
 		
 		
 [Next rooms:]
 
-Hallway is a room. Hallway is west of Orange. The description is "There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room. There's a small wooden stool grandma stands on to clean the windows since their to tall for her. There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!"
+Hallway is a room. Hallway is west of Orange. The description is "There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room. [if player is not carrying wooden stool] There's a small wooden stool grandma stands on to clean the windows since their to tall for her. [end if] There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!"
 
 Wooden stool is a thing in Hallway. The description is "Small wooden stool. It can fold in on itself so you can carry it around. Pretty nice!" 
 Understand "stool" as wooden stool.
 
 Marble is scenery in hallway. The description is "Nice old marble table, nothing much.".
 Understand "table" as Marble.
-
-
 
 Lamp is a device in Hallway. Lamp is fixed in place. The description is "Heavy metal lamp with a switch on the top. It's a really bright lamp, the light will probably leak through to grandma's room if you try and turn it on, so don't."
 Instead of switching on lamp:
@@ -156,10 +156,14 @@ Instead of taking Medals:
 Halldows are scenery in Hallway. The printed name is "Hallway windows".The description is "Tall windows. They're never opened and are really dusty."
 Understand "Hallway windows" as Halldows.
 
+
 Stairs is scenery in Hallway. The printed name is "Hallway door". "Dang it I really wanted to go down stairs this way, I gess I'll have to find another way. What could I use to get downstairs?"
 Understand "Hallway door" as stairs.
 
-Grandmas entrance is a room. Grandmas entrance is south of Hallway. The description of grandmas entrance is "Still part of the hallway you see the sillouette of a wrench lying against the wall on the groud on the corner between the end of the line of hallway windows and grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys."
+Grandmas entrance is a room. Grandmas entrance is south of Hallway. The description of grandmas entrance is "Still part of the hallway you see [if player is not carrying wrench] the sillouette of a wrench lying against the wall on the groud on the corner between the end of the line of hallway windows and [end if] grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys."
+
+Grandows are scenery in grandmas entrance. The printed name is "Hallway windows".The description is "Tall windows. They're never opened and are really dusty."
+Understand "Hallway windows" as grandows.
 
 Spare bell is a thing in Grandmas entrance. The description of spare bell is "I heard the cat playing with it earlier. It was prettly loud so I wouldn't go near it if I were you.".
 Understand "bell" as spare bell. 
@@ -177,17 +181,44 @@ The wrench unlocks the stairs. The wrench is in Grandmas entrance. The descripti
 
 
 [Rooms for last puzzle]
-Landing Zone is a room. Landing zone is east of Glass. The description is "You are now outside at, there is a cool breeze and moonlight illuminating the grass."
+Landing Zone is a room. Landing zone is east of Glass. The description is "You are now outside at, there is a cool breeze and moonlight illuminating the grass. To the east you see the woods and north brings you towards the door, which leads to the kitchen... and the cookies!!"
 
-Woods is a room. Woods is east of Landing zone. 
+Woods is a room. Woods is east of Landing zone. The description is "Its just grass. Oh look it's the cat, he's playing with a pile of leaves. I love the cat. Whats that? Did I just hear the cat speak to me??"
 
-Light Zone is a room. Light zone is north of Landing zone. 
+Cat is a man in woods. The description is "Just a regular black cat playing in the leaves. It also talks, wadda ya know!"
+
+Talking to is an action applying to one visible thing.
+Understand "talk to [someone]" or “converse with [someone]” as talking to.
+Check talking to: say "[The noun] doesn't reply."
+
+Instead of talking to Cat:
+	say "[one of]'Is that you?' you say hesitantly. [paragraph break]'Yup it's really me, though I have to point out you are a very imaginative child.' the cat replies casually.[or] 'Umm.... is there anything taht you have to say, you know, as a cat?' [paragraph break] 'I mean I'm a cat so I'm good at sneaking around, I could give you some pointers' the cat replies in a friendly manner.' [or]'How do I get to the door of the house' you ask the cat. [paragraph break] 'Okay I can see your persistance, so I'll give you a hint. Take these leave that I've gathered so nicely for you, and simply staple___' the cat says and then dashes into the bushes! [or] the cat left for some reason.[stopping]".
+
+Leaves are a thing in woods. The description is "Large thick leaves that look like they come from a thick jungle plant and leave you wondering where the cat goes in his free time. They are thick enough to block light, but thin enough that if you really tried to you could probably staple them up.".
+
+Light Zone is a room. Light zone is north of Landing zone. "Between landing zone and the door to the kitchen. [if leaves are not in light zone] Wait! Theres a motion activated light north of here between here and the front porch with the door on it. If you go that way the light with give you away!"
+
+Understand "staple [something]" as dropping. 
+Instead of dropping:
+	if noun is leaves:
+		say "You staple the leaves to the wall bloking the light from reaching upstairs. Now safely go to the porch up north!";
+		now noun is in location;
+	otherwise:
+		say "I think you should try stapling something else. You're on the right track though!".	
+		
+Instead of going to front porch:
+	if leaves are in light zone:
+		say "The light turns on, but thankfully your leaves dim the light.";
+		now player is in front porch;
+	otherwise:
+		say "The light turns on, and grandma's six sence wakes her up... Looks like you'll never even see cookies at grandma's house again.";
+		end the story finally.	
 
 Front Porch is a room. Front Porch is north of Light Zone. 
 
 Kitchen is a room. Kitchen is west of of Green. 
 
 Green is a door. Green is west of Front Porch. The printed name is "Outside door". 
-Understand "Outside door" as Green. 
+Understand "Outside door" as Green. The description is "A really green door."
 
 
