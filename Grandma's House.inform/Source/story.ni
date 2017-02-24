@@ -75,7 +75,7 @@ Instead of taking sheets:
 			say "I would have to feel around for a key, and I'm too scared to put my hand underneath this dark bed without something to kill any bugs that might jump out.".
 			
 [The combining action from Tonic.]
-Understand "combine [something] to [something]" as combining it with.
+Understand "combine [something] with [something]" as combining it with.
 Combining it with is an action applying to two things.
 
 [The line below tells Inform7 that combining produces something. From Tonic.]
@@ -184,7 +184,7 @@ The wrench unlocks the stairs. The wrench is in Grandmas entrance. The descripti
 
 
 [Rooms for last puzzle]
-Landing Zone is a room. Landing zone is east of Glass. The description is "You are now outside at, there is a cool breeze and moonlight illuminating the grass. To the east you see the woods and north brings you towards the door, which leads to the kitchen... and the cookies!!"
+Landing Zone is a room. Landing zone is east of Glass. The description is "You are now outside at, there is a cool breeze and moonlight illuminating the grass. To the east you see the woods and the north leads towards the door, which leads to the kitchen... and the cookies!!"
 
 Grass is scenery in Landing zone. The description is "Green blades blowing in the wind".
 
@@ -211,7 +211,7 @@ Instead of taking bright:
 		end the story finally;
 	Otherwise:
 		say "You carefully remove the light under the safety of the leaves...";
-		now player has bright.	
+		now player has bright.
 
 Understand "staple [something]" as dropping. 
 Instead of dropping:
@@ -229,16 +229,19 @@ Instead of dropping:
 			say "I think you should try stapling something else. You're on the right track though!".	
 		
 Instead of going to front porch:
-	if leaves are in light zone:
-		say "The light turns on, but thankfully your leaves dim the light.";
+	if player has bright:
 		now player is in front porch;
-	otherwise:
-		say "The light turns on, and grandma's six sence wakes her up... Looks like you'll never even see cookies at grandma's house again.";
-		end the story finally.	
+	otherwise:	
+		if leaves are in light zone:
+			say "The light turns on, but thankfully your leaves dim the light.";
+			now player is in front porch;
+		otherwise:
+			say "The light turns on, and grandma's six sence wakes her up... Looks like you'll never even see cookies at grandma's house again.";
+			end the story finally.	
 
-Front Porch is a room. Front Porch is north of Light Zone. "Your right in front of Green door now! Lucky for you grandma doesn't lock this door. (She isn't scared of getting robbed, but is scared of you running around in the woods a night)"
+Front Porch is a room. Front Porch is north of Light Zone. "Your right in front of outside door now! Lucky for you grandma doesn't lock this door. (She isn't scared of getting robbed, but is scared of you running around in the woods a night)"
 
-Kitchen is a room. Kitchen is west of of Green. The description of kitchen is "You've made it! [if player is not carrying bright] However it's really dark and you can't find the cookies. All you have to do is take them, but stubbling around could wake up grandma! [end if] [if player has bright] You see the cookies on the top shelf above the sink. Now the only question is, how are you going to reach them? [end if]".
+Kitchen is a room. Kitchen is west of of Green. The description of kitchen is "You've made it! [if player is not carrying bright] However it's really dark and you can't find the cookies. All you have to do is take them, but stubbling around could wake up grandma! [end if] [if player has bright] You see the cookies on the top shelf above the sink. To take them however you have to be able to reach them. Now the only question is, how are you going to reach them? [end if]".
 
 
 Cookies are a thing in kitchen. Cookies are undescribed. The description is "Declicious amazing, soft, chocolate chip cookies!"
@@ -257,4 +260,7 @@ Instead of taking cookies:
 Green is a door. Green is west of Front Porch. The printed name is "Outside door". 
 Understand "Outside door" as Green. The description is "A really green door."
 
+[Shortest route:
+
+Break records, Lift sheets, take stapler, unlock orange door with spare key, w, take medals, take wooden stool, s, take wrench, n, e, crank open window with wrench, combine bedside table with broken bike horn, combine hook with medal, combine hanger with sheets, open window, down, e, take leaves, w, n, staple leaves, take light, n, w, drop stool, stand on stool, take cookies!]
 
