@@ -64,6 +64,8 @@ Instead of attacking records:
 Understand "lift [something]" as taking. 
 
 Instead of taking sheets:
+	if sheets are unexamined:
+		say "Long sheets rap around the bed and droop to the floor. While this seems like a place where something useful is hidden, I'm to scared of finding unsful bugs under my bed without a weapon.";
 	if player has spare:
 		say "Cough... cough... These sheets our even dustier than I thought!";
 		now player has sheets;
@@ -114,12 +116,21 @@ Parts List	Results
 
 Hook is an object. The description is "Now you've made a hook that you can tie things to. This will be super good for climbing out the window. The only problem is you can't attach something as big as a bed sheet to this make shift hook, you have to combine something else to the hook in order to attach your sheets.".
 
+Instead of taking hook:
+	say "it's attached to the table, which is gonna be good for getting you down stairs, so I wouldn't undo it".
+
 Instead of combining Hook with sheets:
-	say "The only problem is you can't attach something as big as a bed sheet to this make shift hook, you have to combine something else to the hook in order to attach your sheets.".
+	say "The only problem is you can't combine something as big as a bed sheet to this make shift hook, you have to combine something else to the hook in order to attach your sheets.".
 
 Hanger is an object. The description is "Great now you have a big enough loop to attach all your sheets to!"
 
+Instead of taking hanger:
+	say "it's attached to the table, which is gonna be good for getting you down stairs, so I wouldn't undo it".
+	
 Homemade rope is an object. The description is "Just like in the movies you have made your own escape line! Good Job!".
+
+Instead of taking homemade rope:
+	say "it's attached to the table, which is gonna be good for getting you down stairs, so I wouldn't undo it".
 
 Instead of going down:
 	if Glass is closed:
@@ -138,7 +149,10 @@ Hallway is a room. Hallway is west of Orange. The description is "There are hall
 
 Wooden stool is a supporter in Hallway. The Wooden stool is not fixed in place. Stool is enterable. The description is "Small wooden stool. It can fold in on itself so you can carry it around. Pretty nice!" 
 Understand "stool" as wooden stool.
-
+Instead of dropping stool:
+	say "You quietly place down the stool.";		
+	now stool is in location.
+			
 Marble is scenery in hallway. The description is "Nice old marble table, nothing much.".
 Understand "table" as Marble.
 
@@ -213,20 +227,16 @@ Instead of taking bright:
 		say "You carefully remove the light under the safety of the leaves...";
 		now player has bright.
 
-Understand "staple [something]" as dropping. 
-Instead of dropping:
+Understand "staple [something]" as smelling. 
+Instead of smelling:
 	if noun is leaves:
 		if player has stapler:
 			say "You staple the leaves to the wall bloking the light from reaching upstairs. Now safely go to the porch up north!";
 			now noun is in location;
 		otherwise:
-			say "How are you going to stapple the leaves over the light if you don't have the stapler!";
+			say "What are you going to staple the leaves with?? You should find a stapler or something!";	
 	otherwise:
-		if noun is stool:
-			say "You quietly place down the stool.";
-			now stool is in location;
-		otherwise:	
-			say "I think you should try stapling something else. You're on the right track though!".	
+		say "I think you should try stapling something else. You're on the right track though!".	
 		
 Instead of going to front porch:
 	if player has bright:
