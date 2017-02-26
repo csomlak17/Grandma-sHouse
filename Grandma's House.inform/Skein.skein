@@ -2318,7 +2318,72 @@ Cough... cough... These sheets our even dustier than I thought!
             <child nodeId="node-1418"></child>
             <child nodeId="node-1240"></child>
             <child nodeId="node-1225"></child>
+            <child nodeId="node-2025"></child>
         </children>
+    </item>
+    <item nodeId="node-2025">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening Orange door)
+It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2026"></child>
+        </children>
+    </item>
+    <item nodeId="node-2026">
+        <command xml:space="preserve">unlock orange</command>
+        <result xml:space="preserve">(with spare key)
+You unlock Orange door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2027"></child>
+        </children>
+    </item>
+    <item nodeId="node-2027">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">(first opening Orange door)
+
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room.  There's a small wooden stool grandma stands on to clean the windows since they're to tall for her.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
+
+You can see Orange door, Wooden stool, Lamp and Medals here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2028"></child>
+        </children>
+    </item>
+    <item nodeId="node-2028">
+        <command xml:space="preserve">stand on stool</command>
+        <result xml:space="preserve">You get onto Wooden stool.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2029"></child>
+        </children>
+    </item>
+    <item nodeId="node-2029">
+        <command xml:space="preserve">get off stool</command>
+        <result xml:space="preserve">You get off Wooden stool.
+
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room.  There's a small wooden stool grandma stands on to clean the windows since they're to tall for her.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
+
+You can see Orange door, Wooden stool, Lamp and Medals here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2030"></child>
+        </children>
+    </item>
+    <item nodeId="node-2030">
+        <command xml:space="preserve">climb on stool</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1225">
         <command xml:space="preserve">unlock orange with spare</command>
@@ -5634,13 +5699,31 @@ You can see Orange door and Wooden stool here.
     </item>
     <item nodeId="node-1536">
         <command xml:space="preserve">take sheets</command>
-        <result xml:space="preserve">I would have to feel around for a key, and I'm too scared to put my hand underneath this dark bed without something to kill any bugs that might jump out.
+        <result xml:space="preserve">While the long sheets sure look like they could be hidding something useful I am not willing to reveal any bugs or monsters under my bed without some sort of weapon.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1540"></child>
+            <child nodeId="node-2014"></child>
             <child nodeId="node-1537"></child>
+            <child nodeId="node-2022"></child>
         </children>
+    </item>
+    <item nodeId="node-2022">
+        <command xml:space="preserve">take records</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2023"></child>
+        </children>
+    </item>
+    <item nodeId="node-2023">
+        <command xml:space="preserve">drop records</command>
+        <result xml:space="preserve">Dropped.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
     </item>
     <item nodeId="node-1537">
         <command xml:space="preserve">take broken disk</command>
@@ -5665,6 +5748,31 @@ Cough... cough... These sheets our even dustier than I thought!
         <command xml:space="preserve">take sheets</command>
         <result xml:space="preserve">You feel around under the bed with your disc shard ready, and you feel it... the Spare Key! You now have the spare key!
 Cough... cough... These sheets our even dustier than I thought!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-2014">
+        <command xml:space="preserve">lift sheets</command>
+        <result xml:space="preserve">Long sheets rap around the bed and droop to the floor. While this seems like a place where something useful is hidden, I'm to scared of finding un-useful bugs under my bed without a weapon.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2015"></child>
+        </children>
+    </item>
+    <item nodeId="node-2015">
+        <command xml:space="preserve">x sheets</command>
+        <result xml:space="preserve">These long sheets make it easy to hide something, of course to find anything you'd have to lift the sheets...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-2016"></child>
+        </children>
+    </item>
+    <item nodeId="node-2016">
+        <command xml:space="preserve">lift sheets</command>
+        <result xml:space="preserve">Long sheets rap around the bed and droop to the floor. While this seems like a place where something useful is hidden, I'm to scared of finding un-useful bugs under my bed without a weapon.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

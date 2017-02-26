@@ -52,6 +52,7 @@ Instead of taking imaginary cookie:
 
 Orange is a door. Orange is west of bedroom. Orange is locked and lockable. The printed name is "Orange door". The description of orange is "I don't really like orange, also the door is old and faded."
 Understand "Orange door" as Orange. 
+Understand "door" as orange.
 
 Spare unlocks orange. Spare is in bedroom. The printed name of spare is "spare key". Spare is undescribed. 
 Understand "spare key" as Spare.
@@ -63,9 +64,7 @@ Instead of attacking records:
 	
 Understand "lift [something]" as taking. 
 
-Instead of taking sheets:
-	if sheets are unexamined:
-		say "Long sheets rap around the bed and droop to the floor. While this seems like a place where something useful is hidden, I'm to scared of finding unsful bugs under my bed without a weapon.";
+Instead of taking sheets:	
 	if player has spare:
 		say "Cough... cough... These sheets our even dustier than I thought!";
 		now player has sheets;
@@ -74,7 +73,13 @@ Instead of taking sheets:
 			say "You feel around under the bed with your disc shard ready, and you feel it... the Spare Key! You now have the spare key!";
 			now player has spare;
 		otherwise:
-			say "I would have to feel around for a key, and I'm too scared to put my hand underneath this dark bed without something to kill any bugs that might jump out.".
+			say "While the long sheets sure look like they could be hidding something useful I am not willing to reveal any bugs or monsters under my bed without some sort of Sharp object like broken glass.".
+			
+Bugs is scenery in bedroom. The description is "Uhhh... they give me the creeps". 
+Understand "Bug" as Bugs.
+
+Monsters is scenery in bedroom. The description is "ahhhhhhhhhhh......"
+
 			
 [The combining action from Tonic.]
 Understand "combine [something] with [something]" as combining it with.
@@ -117,7 +122,7 @@ Parts List	Results
 Hook is an object. The description is "Now you've made a hook that you can tie things to. This will be super good for climbing out the window. The only problem is you can't attach something as big as a bed sheet to this make shift hook, you have to combine something else to the hook in order to attach your sheets.".
 
 Instead of taking hook:
-	say "it's attached to the table, which is gonna be good for getting you down stairs, so I wouldn't undo it".
+	say "It's attached to the table, which is gonna be good for getting you down stairs, so I wouldn't undo it".
 
 Instead of combining Hook with sheets:
 	say "The only problem is you can't combine something as big as a bed sheet to this make shift hook, you have to combine something else to the hook in order to attach your sheets.".
@@ -125,12 +130,12 @@ Instead of combining Hook with sheets:
 Hanger is an object. The description is "Great now you have a big enough loop to attach all your sheets to!"
 
 Instead of taking hanger:
-	say "it's attached to the table, which is gonna be good for getting you down stairs, so I wouldn't undo it".
+	say "It's attached to the table, which is gonna be good for getting you down stairs, so I wouldn't undo it".
 	
 Homemade rope is an object. The description is "Just like in the movies you have made your own escape line! Good Job!".
 
 Instead of taking homemade rope:
-	say "it's attached to the table, which is gonna be good for getting you down stairs, so I wouldn't undo it".
+	say "It's attached to the table, which is gonna be good for getting you down stairs, so I wouldn't undo it".
 
 Instead of going down:
 	if Glass is closed:
@@ -145,10 +150,11 @@ Instead of going down:
 		
 [Next rooms:]
 
-Hallway is a room. Hallway is west of Orange. The description is "There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room. [if player is not carrying wooden stool] There's a small wooden stool grandma stands on to clean the windows since their to tall for her. [end if] There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!"
+Hallway is a room. Hallway is west of Orange. The description is "There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room. [if player is not carrying wooden stool] There's a small wooden stool grandma stands on to clean the windows since they're to tall for her. [end if] There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!"
 
 Wooden stool is a supporter in Hallway. The Wooden stool is not fixed in place. Stool is enterable. The description is "Small wooden stool. It can fold in on itself so you can carry it around. Pretty nice!" 
 Understand "stool" as wooden stool.
+Understand "climb on [something]" as entering.
 Instead of dropping stool:
 	say "You quietly place down the stool.";		
 	now stool is in location.
@@ -172,15 +178,16 @@ Instead of taking Medals:
 		
 Halldows are scenery in Hallway. The printed name is "Hallway windows".The description is "Tall windows. They're never opened and are really dusty."
 Understand "Hallway windows" as Halldows.
-
+Understand "windows" as Halldows.
 
 Stairs is scenery in Hallway. The printed name is "Hallway door". "Dang it I really wanted to go down stairs this way, I gess I'll have to find another way. What could I use to get downstairs?"
 Understand "Hallway door" as stairs.
 
-Grandmas entrance is a room. Grandmas entrance is south of Hallway. The description of grandmas entrance is "Still part of the hallway you see [if player is not carrying wrench] the sillouette of a wrench lying against the wall on the groud on the corner between the end of the line of hallway windows and [end if] grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys."
+Grandmas entrance is a room. Grandmas entrance is south of Hallway. The description of grandmas entrance is "Still part of the hallway you see [if player is not carrying wrench] the sillouette of a wrench lying against the wall on the ground on the corner between the end of the line of hallway windows and [end if] grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys."
 
 Grandows are scenery in grandmas entrance. The printed name is "Hallway windows".The description is "Tall windows. They're never opened and are really dusty."
 Understand "Hallway windows" as grandows.
+Understand "windows" as grandows.
 
 Spare bell is a thing in Grandmas entrance. The description of spare bell is "I heard the cat playing with it earlier. It was prettly loud so I wouldn't go near it if I were you.".
 Understand "bell" as spare bell. 
@@ -231,10 +238,15 @@ Understand "staple [something]" as smelling.
 Instead of smelling:
 	if noun is leaves:
 		if player has stapler:
-			say "You staple the leaves to the wall bloking the light from reaching upstairs. Now safely go to the porch up north!";
-			now noun is in location;
+			if player is in Light zone:
+				say "You staple the leaves to the wall bloking the light from reaching upstairs. Now safely go to the porch up north!";
+				now noun is in location;
+			otherwise:
+				say "what are stapled leaves over here gonna do for you? The cat obviously meant for you to staple them somewhere useful.";	
 		otherwise:
 			say "What are you going to staple the leaves with?? You should find a stapler or something!";	
+	if noun is sheets:
+		say "These shees are way to thick to be stapled. Try combining sheets to something!";	
 	otherwise:
 		say "I think you should try stapling something else. You're on the right track though!".	
 		
@@ -251,7 +263,7 @@ Instead of going to front porch:
 
 Front Porch is a room. Front Porch is north of Light Zone. "Your right in front of outside door now! Lucky for you grandma doesn't lock this door. (She isn't scared of getting robbed, but is scared of you running around in the woods a night)"
 
-Kitchen is a room. Kitchen is west of of Green. The description of kitchen is "You've made it! [if player is not carrying bright] However it's really dark and you can't find the cookies. All you have to do is take them, but stubbling around could wake up grandma! [end if] [if player has bright] You see the cookies on the top shelf above the sink. To take them however you have to be able to reach them. Now the only question is, how are you going to reach them? [end if]".
+Kitchen is a room. Kitchen is west of of Green. The description of kitchen is "You've made it! [if player is not carrying bright] However it's really dark and you can't find the cookies. All you have to do is take them, but stumbling around could wake up grandma! [end if] [if player has bright] You see the cookies on the top shelf above the sink. To take them however you have to be able to reach them. Now the only question is, how are you going to reach them? [end if]".
 
 
 Cookies are a thing in kitchen. Cookies are undescribed. The description is "Declicious amazing, soft, chocolate chip cookies!"
@@ -269,6 +281,8 @@ Instead of taking cookies:
 
 Green is a door. Green is west of Front Porch. The printed name is "Outside door". 
 Understand "Outside door" as Green. The description is "A really green door."
+Understand "green door" as green. 
+Understand "door" as green.
 
 [Shortest route:
 
