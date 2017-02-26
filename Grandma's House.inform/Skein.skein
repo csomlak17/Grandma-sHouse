@@ -2380,7 +2380,7 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
     </item>
     <item nodeId="node-2030">
         <command xml:space="preserve">climb on stool</command>
-        <result xml:space="preserve">You can't see any such thing.
+        <result xml:space="preserve">You get onto Wooden stool.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>

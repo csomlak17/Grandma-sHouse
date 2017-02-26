@@ -57,6 +57,7 @@ Understand "door" as orange.
 Spare unlocks orange. Spare is in bedroom. The printed name of spare is "spare key". Spare is undescribed. 
 Understand "spare key" as Spare.
 
+
 Instead of attacking records:
 	say "You shater the record on your bed and quickly clean up all the peices except for one large one which you keep to protect you from the bugs. You should be carefully, thankfully the walls kept you safe, but if you had done something this loud in the hallway, grandma would have waken up.";
 	remove records from play;
@@ -64,6 +65,7 @@ Instead of attacking records:
 	
 Understand "lift [something]" as taking. 
 
+[This section of the code was really hard to write because I constantly had to come back to the sheets because the sheets are used for half of the puzzles. Really happy that it worked out well though for hints and multiple uses]
 Instead of taking sheets:	
 	if player has spare:
 		say "Cough... cough... These sheets our even dustier than I thought!";
@@ -152,6 +154,7 @@ Instead of going down:
 
 Hallway is a room. Hallway is west of Orange. The description is "There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room. [if player is not carrying wooden stool] There's a small wooden stool grandma stands on to clean the windows since they're to tall for her. [end if] There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!"
 
+[Took a lot of reserch to figure out how to make supporters and make it portable]
 Wooden stool is a supporter in Hallway. The Wooden stool is not fixed in place. Stool is enterable. The description is "Small wooden stool. It can fold in on itself so you can carry it around. Pretty nice!" 
 Understand "stool" as wooden stool.
 Understand "climb on [something]" as entering.
@@ -162,6 +165,7 @@ Instead of dropping stool:
 Marble is scenery in hallway. The description is "Nice old marble table, nothing much.".
 Understand "table" as Marble.
 
+[Making a lamp a device so Inform could understand]
 Lamp is a device in Hallway. Lamp is fixed in place. The description is "Heavy metal lamp with a switch on the top. It's a really bright lamp, the light will probably leak through to grandma's room if you try and turn it on, so don't."
 Instead of switching on lamp:
 	say "You turn on the light, ignoring my advice like an idiot and grandma wakes up. Maybe you'll trust me more next time.";
@@ -213,6 +217,7 @@ Woods is a room. Woods is east of Landing zone. The description is "It's just a 
 
 Cat is a man in woods. Cat is undescribed. The description is "Just a regular black cat playing in the leaves. It also talks, wadda ya know!"
 
+[Talking to an NPC from the Inform handbook]
 Talking to is an action applying to one visible thing.
 Understand "talk to [someone]" or “converse with [someone]” as talking to.
 Check talking to: say "[The noun] doesn't reply."
@@ -224,6 +229,7 @@ Leaves are a thing in woods. The description is "Large thick leaves that look li
 
 Light Zone is a room. Light zone is north of Landing zone. "Between landing zone and the door to the kitchen. [if leaves are not in light zone] Wait! There's a motion activated light north of here, it's between you and the door. If you go that way the light will turn on and give you away!"
 
+
 Bright is a thing in light zone. The printed name is "Light". The description is "Motion activated, and bright enough to take up grandma. Advance with caution."
 Understand "light" as bright.
 Instead of taking bright:
@@ -234,6 +240,7 @@ Instead of taking bright:
 		say "You carefully remove the light under the safety of the leaves...";
 		now player has bright.
 
+[Again a lot of insteds which allow the action of stapling to give hints on both the combining puzzle, the stapling puzzle, and require the right things for this action]
 Understand "staple [something]" as smelling. 
 Instead of smelling:
 	if noun is leaves:
