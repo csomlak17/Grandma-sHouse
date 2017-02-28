@@ -7,14 +7,14 @@
         <result xml:space="preserve">
 
 
-You are a small ten year old having a sleep over at grandmas house. You helped her make homemade chocolate cookies during the day and couldn't get enough of them after dinner. Of course bed time is way to early, and you just had cookies so you lay in your bed awake, wondering about the cookies down stairs. Is there any way you could get to them?
+You are a small ten-year-old having a sleep over at grandma's house. You helped her make homemade chocolate cookies during the day and couldn't get enough of them after dinner. Of course bed time is way too early, and you just had cookies so you lay in your bed awake, wondering about the cookies down stairs. Is there any way you could get to them?
 
 Grandma's House
 An Interactive Fiction by Calien Somlak
 Release 1 / Serial number 170227 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD
 
 Bedroom
-Completely dark, you lie on your bed. The wall arcross from you has an orange door. To your left is a bedside table  with a stapler on it.   There is also a broken bike horn.   Some records lie in the corner next to the window.  You can feel the despair in the room taking shape as an imaginary cookie that is out of reach.  Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in wich case you she can direct you to the key and you can get out. The question is where is the key...
+Completely dark, you lie on your bed. The wall across from you has an orange door. To your left is a bedside table  with a stapler on it.   There is also a broken bike horn.   Some records lie in the corner next to the window.  You can feel the despair in the room taking shape as an imaginary cookie that is out of reach.  Furthermore there's gotta be a key somewhere in the room since grandma is always scared that she'll lose her keys in which case you she can direct you to the key and you can get out. The question is where is the key...
 
 You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records here.
 
@@ -280,6 +280,7 @@ You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
         <children><child nodeId="node-1042"></child>
+            <child nodeId="node-1769"></child>
             <child nodeId="node-1030"></child>
         </children>
     </item>
@@ -385,6 +386,1297 @@ You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records 
     <item nodeId="node-1041">
         <command xml:space="preserve">open orange</command>
         <result xml:space="preserve">You open Orange.
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1769">
+        <command xml:space="preserve">x cookie</command>
+        <result xml:space="preserve">I can just imagine breaking off a nice piece with lots of chocolate chunks... theres probably something else that can break like a cookie in this room...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1770"></child>
+        </children>
+    </item>
+    <item nodeId="node-1770">
+        <command xml:space="preserve">x records</command>
+        <result xml:space="preserve">ohhh nice, some Frank Sinatra
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1771"></child>
+        </children>
+    </item>
+    <item nodeId="node-1771">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">I don't really like orange, also the door is old and faded.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1772"></child>
+        </children>
+    </item>
+    <item nodeId="node-1772">
+        <command xml:space="preserve">take stapler</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1773"></child>
+        </children>
+    </item>
+    <item nodeId="node-1773">
+        <command xml:space="preserve">x stapler</command>
+        <result xml:space="preserve">Seems like it could be good at hanging things up.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1774"></child>
+        </children>
+    </item>
+    <item nodeId="node-1774">
+        <command xml:space="preserve">x window</command>
+        <result xml:space="preserve">Closed with a crancking handle, but it's stuck, you probably need a wrench in order to crank it open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1775"></child>
+        </children>
+    </item>
+    <item nodeId="node-1775">
+        <command xml:space="preserve">open door</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1776"></child>
+        </children>
+    </item>
+    <item nodeId="node-1776">
+        <command xml:space="preserve">x bike horn</command>
+        <result xml:space="preserve">The ringer is broken, however it seems like it could still be attached to any poles about as thick as the bedside table's legs with the comand combine.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1777"></child>
+        </children>
+    </item>
+    <item nodeId="node-1777">
+        <command xml:space="preserve">take ringer</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1778"></child>
+        </children>
+    </item>
+    <item nodeId="node-1778">
+        <command xml:space="preserve">take bike horn</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1779"></child>
+        </children>
+    </item>
+    <item nodeId="node-1779">
+        <command xml:space="preserve">x despair</command>
+        <result xml:space="preserve">I can just imagine breaking off a nice piece with lots of chocolate chunks... theres probably something else that can break like a cookie in this room...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1780"></child>
+        </children>
+    </item>
+    <item nodeId="node-1780">
+        <command xml:space="preserve">x table</command>
+        <result xml:space="preserve">This table seems really stury, so sturdy you could hang off of it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1781"></child>
+        </children>
+    </item>
+    <item nodeId="node-1781">
+        <command xml:space="preserve">x bed</command>
+        <result xml:space="preserve">It's a stiff bed with long sheets hanging down to the floor
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1782"></child>
+        </children>
+    </item>
+    <item nodeId="node-1782">
+        <command xml:space="preserve">x floor</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1783"></child>
+        </children>
+    </item>
+    <item nodeId="node-1783">
+        <command xml:space="preserve">x sheets</command>
+        <result xml:space="preserve">These long sheets make it easy to hide something, of course to find anything you'd have to lift the sheets...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1784"></child>
+        </children>
+    </item>
+    <item nodeId="node-1784">
+        <command xml:space="preserve">lift sheets</command>
+        <result xml:space="preserve">While the long sheets sure look like they could be hidding something useful I am not willing to reveal any bugs or monsters under my bed without some sort of Sharp object like broken glass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1785"></child>
+        </children>
+    </item>
+    <item nodeId="node-1785">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Broken bike horn
+  Stapler
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1786"></child>
+        </children>
+    </item>
+    <item nodeId="node-1786">
+        <command xml:space="preserve">x stapler</command>
+        <result xml:space="preserve">Seems like it could be good at hanging things up.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1787"></child>
+        </children>
+    </item>
+    <item nodeId="node-1787">
+        <command xml:space="preserve">x bedside table</command>
+        <result xml:space="preserve">This table seems really stury, so sturdy you could hang off of it.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1788"></child>
+        </children>
+    </item>
+    <item nodeId="node-1788">
+        <command xml:space="preserve">x legs</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1789"></child>
+        </children>
+    </item>
+    <item nodeId="node-1789">
+        <command xml:space="preserve">combine bedside table with bike horn</command>
+        <result xml:space="preserve">You fuse together Bedside table and Broken bike horn.
+You have made Hook!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1790"></child>
+        </children>
+    </item>
+    <item nodeId="node-1790">
+        <command xml:space="preserve">use hook on sheets</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1791"></child>
+        </children>
+    </item>
+    <item nodeId="node-1791">
+        <command xml:space="preserve">x sheets</command>
+        <result xml:space="preserve">These long sheets make it easy to hide something, of course to find anything you'd have to lift the sheets...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1792"></child>
+        </children>
+    </item>
+    <item nodeId="node-1792">
+        <command xml:space="preserve">lift sheets with hook</command>
+        <result xml:space="preserve">I only understood you as far as wanting to lift Sheets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1793"></child>
+        </children>
+    </item>
+    <item nodeId="node-1793">
+        <command xml:space="preserve">lift sheets</command>
+        <result xml:space="preserve">While the long sheets sure look like they could be hidding something useful I am not willing to reveal any bugs or monsters under my bed without some sort of Sharp object like broken glass.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1794"></child>
+        </children>
+    </item>
+    <item nodeId="node-1794">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Stapler
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1795"></child>
+        </children>
+    </item>
+    <item nodeId="node-1795">
+        <command xml:space="preserve">take hook</command>
+        <result xml:space="preserve">It's attached to the table, which is gonna be good for getting you down stairs, so I wouldn't undo it
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1796"></child>
+        </children>
+    </item>
+    <item nodeId="node-1796">
+        <command xml:space="preserve">break window</command>
+        <result xml:space="preserve">Violence isn't the answer to this one.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1797"></child>
+        </children>
+    </item>
+    <item nodeId="node-1797">
+        <command xml:space="preserve">break records</command>
+        <result xml:space="preserve">You shater the record on your bed and quickly clean up all the peices except for one large one which you keep to protect you from the bugs. You should be carefully, thankfully the walls kept you safe, but if you had done something this loud in the hallway, grandma would have waken up.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1798"></child>
+        </children>
+    </item>
+    <item nodeId="node-1798">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Broken disk
+  Stapler
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1799"></child>
+        </children>
+    </item>
+    <item nodeId="node-1799">
+        <command xml:space="preserve"></command>
+        <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1800"></child>
+        </children>
+    </item>
+    <item nodeId="node-1800">
+        <command xml:space="preserve">x sheets</command>
+        <result xml:space="preserve">These long sheets make it easy to hide something, of course to find anything you'd have to lift the sheets...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1801"></child>
+        </children>
+    </item>
+    <item nodeId="node-1801">
+        <command xml:space="preserve">lift sheet</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1802"></child>
+        </children>
+    </item>
+    <item nodeId="node-1802">
+        <command xml:space="preserve">lift sheets</command>
+        <result xml:space="preserve">You feel around under the bed with your disc shard ready, and you feel it... the Spare Key! You now have the spare key!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1803"></child>
+        </children>
+    </item>
+    <item nodeId="node-1803">
+        <command xml:space="preserve">take key</command>
+        <result xml:space="preserve">You already have that.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1804"></child>
+        </children>
+    </item>
+    <item nodeId="node-1804">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  spare key
+  Broken disk
+  Stapler
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1805"></child>
+        </children>
+    </item>
+    <item nodeId="node-1805">
+        <command xml:space="preserve">open door with key</command>
+        <result xml:space="preserve">You unlock Orange door.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1806"></child>
+        </children>
+    </item>
+    <item nodeId="node-1806">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">(first opening Orange door)
+
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room.  There's a small wooden stool grandma stands on to clean the windows since they're to tall for her.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
+
+You can see Orange door, Wooden stool, Lamp and Medals here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1807"></child>
+        </children>
+    </item>
+    <item nodeId="node-1807">
+        <command xml:space="preserve">x medals</command>
+        <result xml:space="preserve">A bunch of old medals. The long neck straps seem good for tying down things.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1808"></child>
+        </children>
+    </item>
+    <item nodeId="node-1808">
+        <command xml:space="preserve">take medals</command>
+        <result xml:space="preserve">You, scared that grabbing to many could make extra noise grab the first medal that you touch on the wall. You now have a medal.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1809"></child>
+        </children>
+    </item>
+    <item nodeId="node-1809">
+        <command xml:space="preserve">x table</command>
+        <result xml:space="preserve">Nice old marble table, nothing much.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1810"></child>
+        </children>
+    </item>
+    <item nodeId="node-1810">
+        <command xml:space="preserve">x lamp</command>
+        <result xml:space="preserve">Heavy metal lamp with a switch on the top. It's a really bright lamp, the light will probably leak through to grandma's room if you try and turn it on, so don't.
+
+Lamp is currently switched off.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1811"></child>
+        </children>
+    </item>
+    <item nodeId="node-1811">
+        <command xml:space="preserve">x wooden stool</command>
+        <result xml:space="preserve">Small wooden stool. It can fold in on itself so you can carry it around. Pretty nice!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1812"></child>
+        </children>
+    </item>
+    <item nodeId="node-1812">
+        <command xml:space="preserve">take stool</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1813"></child>
+        </children>
+    </item>
+    <item nodeId="node-1813">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">
+Grandmas entrance
+Still part of the hallway you see  the sillouette of a wrench lying against the wall on the ground on the corner between the end of the line of hallway windows and  grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys.
+
+You can see a wrench, Spare bell and Rubber duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1814"></child>
+        </children>
+    </item>
+    <item nodeId="node-1814">
+        <command xml:space="preserve">take wrench</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1815"></child>
+        </children>
+    </item>
+    <item nodeId="node-1815">
+        <command xml:space="preserve">take bell</command>
+        <result xml:space="preserve">you reach for the bell and in the process of picking it up it rings alerting grandma. Your in big trouble for sneaking around a night!
+
+
+
+    *** The End ***
+
+
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1816"></child>
+        </children>
+    </item>
+    <item nodeId="node-1816">
+        <command xml:space="preserve">undo</command>
+        <result xml:space="preserve">Grandmas entrance
+[Previous turn undone.]
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1817"></child>
+        </children>
+    </item>
+    <item nodeId="node-1817">
+        <command xml:space="preserve">x bell</command>
+        <result xml:space="preserve">I heard the cat playing with it earlier. It was prettly loud so I wouldn't go near it if I were you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1818"></child>
+        </children>
+    </item>
+    <item nodeId="node-1818">
+        <command xml:space="preserve">x rubber duck</command>
+        <result xml:space="preserve">I heard the cat playing with it earlier. It was prettly loud so I wouldn't go near it if I were you.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1819"></child>
+        </children>
+    </item>
+    <item nodeId="node-1819">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
+
+You can see Orange door and Lamp here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1820"></child>
+        </children>
+    </item>
+    <item nodeId="node-1820">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">
+Bedroom
+Completely dark, you lie on your bed. The wall arcross from you has an orange door. To your left is a bedside table   There is also a broken bike horn.   You can feel the despair in the room taking shape as an imaginary cookie that is out of reach. 
+
+You can see Orange door, Hook, Window and Despair here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1821"></child>
+        </children>
+    </item>
+    <item nodeId="node-1821">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
+
+You can see Orange door and Lamp here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1822"></child>
+        </children>
+    </item>
+    <item nodeId="node-1822">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">
+Grandmas entrance
+Still part of the hallway you see  grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys.
+
+You can see Spare bell and Rubber duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1823"></child>
+        </children>
+    </item>
+    <item nodeId="node-1823">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
+
+You can see Orange door and Lamp here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1824"></child>
+        </children>
+    </item>
+    <item nodeId="node-1824">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">
+Bedroom
+Completely dark, you lie on your bed. The wall arcross from you has an orange door. To your left is a bedside table   There is also a broken bike horn.   You can feel the despair in the room taking shape as an imaginary cookie that is out of reach. 
+
+You can see Orange door, Hook, Window and Despair here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1825"></child>
+        </children>
+    </item>
+    <item nodeId="node-1825">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
+
+You can see Orange door and Lamp here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1826"></child>
+        </children>
+    </item>
+    <item nodeId="node-1826">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">You can't go that way.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1827"></child>
+        </children>
+    </item>
+    <item nodeId="node-1827">
+        <command xml:space="preserve">x door</command>
+        <result xml:space="preserve">I don't really like orange, also the door is old and faded.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1828"></child>
+        </children>
+    </item>
+    <item nodeId="node-1828">
+        <command xml:space="preserve">x hallway door</command>
+        <result xml:space="preserve">Dang it I really wanted to go down stairs this way, I gess I'll have to find another way. What could I use to get downstairs?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1829"></child>
+        </children>
+    </item>
+    <item nodeId="node-1829">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a wrench
+  Wooden stool
+  Medal
+  spare key
+  Broken disk
+  Stapler
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1830"></child>
+        </children>
+    </item>
+    <item nodeId="node-1830">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">
+Grandmas entrance
+Still part of the hallway you see  grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys.
+
+You can see Spare bell and Rubber duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1831"></child>
+        </children>
+    </item>
+    <item nodeId="node-1831">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
+
+You can see Orange door and Lamp here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1832"></child>
+        </children>
+    </item>
+    <item nodeId="node-1832">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">
+Bedroom
+Completely dark, you lie on your bed. The wall arcross from you has an orange door. To your left is a bedside table   There is also a broken bike horn.   You can feel the despair in the room taking shape as an imaginary cookie that is out of reach. 
+
+You can see Orange door, Hook, Window and Despair here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1833"></child>
+        </children>
+    </item>
+    <item nodeId="node-1833">
+        <command xml:space="preserve">use table</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1834"></child>
+        </children>
+    </item>
+    <item nodeId="node-1834">
+        <command xml:space="preserve">x table</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1835"></child>
+        </children>
+    </item>
+    <item nodeId="node-1835">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a wrench
+  Wooden stool
+  Medal
+  spare key
+  Broken disk
+  Stapler
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1836"></child>
+        </children>
+    </item>
+    <item nodeId="node-1836">
+        <command xml:space="preserve">x hook</command>
+        <result xml:space="preserve">Now you've made a hook that you can tie things to. This will be super good for climbing out the window. The only problem is you can't attach something as big as a bed sheet to this make shift hook, you have to combine something else to the hook in order to attach your sheets.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1837"></child>
+        </children>
+    </item>
+    <item nodeId="node-1837">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a wrench
+  Wooden stool
+  Medal
+  spare key
+  Broken disk
+  Stapler
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1838"></child>
+        </children>
+    </item>
+    <item nodeId="node-1838">
+        <command xml:space="preserve">combine medal with hook</command>
+        <result xml:space="preserve">You fuse together Medal and Hook.
+You have made Hanger!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1839"></child>
+        </children>
+    </item>
+    <item nodeId="node-1839">
+        <command xml:space="preserve">x hanger</command>
+        <result xml:space="preserve">Great now you have a big enough loop to attach all your sheets to!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1840"></child>
+        </children>
+    </item>
+    <item nodeId="node-1840">
+        <command xml:space="preserve">take sheets</command>
+        <result xml:space="preserve">Cough... cough... These sheets our even dustier than I thought!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1841"></child>
+        </children>
+    </item>
+    <item nodeId="node-1841">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Sheets
+  a wrench
+  Wooden stool
+  spare key
+  Broken disk
+  Stapler
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1842"></child>
+        </children>
+    </item>
+    <item nodeId="node-1842">
+        <command xml:space="preserve">combine sheets with hanger</command>
+        <result xml:space="preserve">You fuse together Sheets and Hanger.
+You have made Homemade rope!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1843"></child>
+        </children>
+    </item>
+    <item nodeId="node-1843">
+        <command xml:space="preserve">x rope</command>
+        <result xml:space="preserve">Just like in the movies you have made your own escape line! Good Job!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1844"></child>
+        </children>
+    </item>
+    <item nodeId="node-1844">
+        <command xml:space="preserve">use rope</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1845"></child>
+        </children>
+    </item>
+    <item nodeId="node-1845">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">You gotta open the window before you can get down there!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1846"></child>
+        </children>
+    </item>
+    <item nodeId="node-1846">
+        <command xml:space="preserve">open window</command>
+        <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1847"></child>
+        </children>
+    </item>
+    <item nodeId="node-1847">
+        <command xml:space="preserve">open window with key</command>
+        <result xml:space="preserve">That doesn't seem to fit the lock.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1848"></child>
+        </children>
+    </item>
+    <item nodeId="node-1848">
+        <command xml:space="preserve">x window</command>
+        <result xml:space="preserve">Closed with a crancking handle, but it's stuck, you probably need a wrench in order to crank it open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1849"></child>
+        </children>
+    </item>
+    <item nodeId="node-1849">
+        <command xml:space="preserve">use wrench on window</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1850"></child>
+        </children>
+    </item>
+    <item nodeId="node-1850">
+        <command xml:space="preserve">use wrench to open window</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1851"></child>
+        </children>
+    </item>
+    <item nodeId="node-1851">
+        <command xml:space="preserve">crank window open</command>
+        <result xml:space="preserve">I didn't understand that sentence.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1852"></child>
+        </children>
+    </item>
+    <item nodeId="node-1852">
+        <command xml:space="preserve">open window with wrench</command>
+        <result xml:space="preserve">You unlock Window.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1853"></child>
+        </children>
+    </item>
+    <item nodeId="node-1853">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">You gotta open the window before you can get down there!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1854"></child>
+        </children>
+    </item>
+    <item nodeId="node-1854">
+        <command xml:space="preserve">open window</command>
+        <result xml:space="preserve">You open Window.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1855"></child>
+        </children>
+    </item>
+    <item nodeId="node-1855">
+        <command xml:space="preserve">down</command>
+        <result xml:space="preserve">You swing down the outside of the house, feeling the cool night breeze softly landing on the grass outside.
+
+Landing Zone
+You are now outside at, there is a cool breeze and moonlight illuminating the grass. To the east you see the woods and the north leads towards the door, which leads to the kitchen... and the cookies!!
+
+You can see Window here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1856"></child>
+        </children>
+    </item>
+    <item nodeId="node-1856">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">
+Light Zone
+Between landing zone and the door to the kitchen.  Wait! There's a motion activated light north of here, it's between you and the door. If you go that way the light will turn on and give you away!
+
+You can see Light here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1857"></child>
+        </children>
+    </item>
+    <item nodeId="node-1857">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">
+Landing Zone
+You are now outside at, there is a cool breeze and moonlight illuminating the grass. To the east you see the woods and the north leads towards the door, which leads to the kitchen... and the cookies!!
+
+You can see Window here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1858"></child>
+        </children>
+    </item>
+    <item nodeId="node-1858">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">
+Woods
+It's just a plain field.  Oh look it's the cat, he's playing with a pile of leaves. I love the cat. Whats that? Did I just hear the cat speak to me??
+
+You can see Leaves here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1859"></child>
+        </children>
+    </item>
+    <item nodeId="node-1859">
+        <command xml:space="preserve">x leaves</command>
+        <result xml:space="preserve">Large thick leaves that look like they come from a thick jungle plant and leave you wondering where the cat goes in his free time. They are thick enough to block light, but thin enough that if you really tried to you could probably staple them up.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1860"></child>
+        </children>
+    </item>
+    <item nodeId="node-1860">
+        <command xml:space="preserve">talk to cat</command>
+        <result xml:space="preserve">"Is that you?" you say hesitantly. 
+
+"Yup it's really me, though I have to point out you are a very imaginative child." the cat replies casually.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1861"></child>
+        </children>
+    </item>
+    <item nodeId="node-1861">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a wrench
+  Wooden stool
+  spare key
+  Broken disk
+  Stapler
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1862"></child>
+        </children>
+    </item>
+    <item nodeId="node-1862">
+        <command xml:space="preserve">g</command>
+        <result xml:space="preserve">You are carrying:
+  a wrench
+  Wooden stool
+  spare key
+  Broken disk
+  Stapler
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1863"></child>
+        </children>
+    </item>
+    <item nodeId="node-1863">
+        <command xml:space="preserve">talk to cat</command>
+        <result xml:space="preserve"> "Umm.... is there anything taht you have to say, you know, as a cat?" 
+
+ "I mean I'm a cat so I'm good at sneaking around, I could give you some pointers" the cat replies in a friendly manner." 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1864"></child>
+        </children>
+    </item>
+    <item nodeId="node-1864">
+        <command xml:space="preserve">g</command>
+        <result xml:space="preserve">"How do I get to the door of the house" you ask the cat. 
+
+ "Okay I can see your persistance, so I'll give you a hint. Take these leave that I've gathered so nicely for you, and simply staple___" the cat says and then dashes into the bushes! 
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1865"></child>
+        </children>
+    </item>
+    <item nodeId="node-1865">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a wrench
+  Wooden stool
+  spare key
+  Broken disk
+  Stapler
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1866"></child>
+        </children>
+    </item>
+    <item nodeId="node-1866">
+        <command xml:space="preserve">take leaves</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1867"></child>
+        </children>
+    </item>
+    <item nodeId="node-1867">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  Leaves
+  a wrench
+  Wooden stool
+  spare key
+  Broken disk
+  Stapler
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1868"></child>
+        </children>
+    </item>
+    <item nodeId="node-1868">
+        <command xml:space="preserve">x leaves</command>
+        <result xml:space="preserve">Large thick leaves that look like they come from a thick jungle plant and leave you wondering where the cat goes in his free time. They are thick enough to block light, but thin enough that if you really tried to you could probably staple them up.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1869"></child>
+        </children>
+    </item>
+    <item nodeId="node-1869">
+        <command xml:space="preserve">combine staple with leaves</command>
+        <result xml:space="preserve">You can't see any such thing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1870"></child>
+        </children>
+    </item>
+    <item nodeId="node-1870">
+        <command xml:space="preserve">combine stapler with leaves</command>
+        <result xml:space="preserve">You can't combine Stapler and Leaves into anything useful.
+Try another combination of things.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1871"></child>
+        </children>
+    </item>
+    <item nodeId="node-1871">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">
+Landing Zone
+You are now outside at, there is a cool breeze and moonlight illuminating the grass. To the east you see the woods and the north leads towards the door, which leads to the kitchen... and the cookies!!
+
+You can see Window here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1872"></child>
+        </children>
+    </item>
+    <item nodeId="node-1872">
+        <command xml:space="preserve">staple leaves</command>
+        <result xml:space="preserve">what are stapled leaves over here gonna do for you? The cat obviously meant for you to staple them somewhere useful.
+I think you should try stapling something else. You're on the right track though!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1873"></child>
+        </children>
+    </item>
+    <item nodeId="node-1873">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">
+Light Zone
+Between landing zone and the door to the kitchen.  Wait! There's a motion activated light north of here, it's between you and the door. If you go that way the light will turn on and give you away!
+
+You can see Light here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1874"></child>
+        </children>
+    </item>
+    <item nodeId="node-1874">
+        <command xml:space="preserve">staple leaves</command>
+        <result xml:space="preserve">You staple the leaves to the wall bloking the light from reaching upstairs. Now safely go to the porch up north!
+I think you should try stapling something else. You're on the right track though!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1875"></child>
+        </children>
+    </item>
+    <item nodeId="node-1875">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">The light turns on, but thankfully your leaves dim the light.
+
+Front Porch
+Your right in front of outside door now! Lucky for you grandma doesn't lock this door. (She isn't scared of getting robbed, but is scared of you running around in the woods a night)
+
+You can see Outside door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1876"></child>
+        </children>
+    </item>
+    <item nodeId="node-1876">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">(first opening Outside door)
+
+Kitchen
+You've made it!  However it's really dark and you can't find the cookies. All you have to do is take them, but stumbling around could wake up grandma!  
+
+You can see Outside door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1877"></child>
+        </children>
+    </item>
+    <item nodeId="node-1877">
+        <command xml:space="preserve">i</command>
+        <result xml:space="preserve">You are carrying:
+  a wrench
+  Wooden stool
+  spare key
+  Broken disk
+  Stapler
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1878"></child>
+        </children>
+    </item>
+    <item nodeId="node-1878">
+        <command xml:space="preserve">find light</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1879"></child>
+        </children>
+    </item>
+    <item nodeId="node-1879">
+        <command xml:space="preserve">use wooden stool</command>
+        <result xml:space="preserve">That's not a verb I recognise.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1880"></child>
+        </children>
+    </item>
+    <item nodeId="node-1880">
+        <command xml:space="preserve">x wooden stool</command>
+        <result xml:space="preserve">Small wooden stool. It can fold in on itself so you can carry it around. Pretty nice!
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1881"></child>
+        </children>
+    </item>
+    <item nodeId="node-1881">
+        <command xml:space="preserve">open wooden stool</command>
+        <result xml:space="preserve">It isn't something you can open.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1882"></child>
+        </children>
+    </item>
+    <item nodeId="node-1882">
+        <command xml:space="preserve">east</command>
+        <result xml:space="preserve">The light turns on, but thankfully your leaves dim the light.
+
+Front Porch
+Your right in front of outside door now! Lucky for you grandma doesn't lock this door. (She isn't scared of getting robbed, but is scared of you running around in the woods a night)
+
+You can see Outside door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1883"></child>
+        </children>
+    </item>
+    <item nodeId="node-1883">
+        <command xml:space="preserve">south</command>
+        <result xml:space="preserve">
+Light Zone
+Between landing zone and the door to the kitchen. 
+
+You can see Leaves and Light here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1884"></child>
+        </children>
+    </item>
+    <item nodeId="node-1884">
+        <command xml:space="preserve">x light</command>
+        <result xml:space="preserve">Motion activated, and bright enough to take up grandma. Advance with caution.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1885"></child>
+        </children>
+    </item>
+    <item nodeId="node-1885">
+        <command xml:space="preserve">take light</command>
+        <result xml:space="preserve">You carefully remove the light under the safety of the leaves...
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1886"></child>
+        </children>
+    </item>
+    <item nodeId="node-1886">
+        <command xml:space="preserve">north</command>
+        <result xml:space="preserve">Front Porch
+Your right in front of outside door now! Lucky for you grandma doesn't lock this door. (She isn't scared of getting robbed, but is scared of you running around in the woods a night)
+
+You can see Outside door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1887"></child>
+        </children>
+    </item>
+    <item nodeId="node-1887">
+        <command xml:space="preserve">west</command>
+        <result xml:space="preserve">
+Kitchen
+You've made it!   You see the cookies on the top shelf above the sink. To take them however you have to be able to reach them. Now the only question is, how are you going to reach them? 
+
+You can see Outside door here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1888"></child>
+        </children>
+    </item>
+    <item nodeId="node-1888">
+        <command xml:space="preserve">get on stool</command>
+        <result xml:space="preserve">You can only get into something free-standing.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1889"></child>
+        </children>
+    </item>
+    <item nodeId="node-1889">
+        <command xml:space="preserve">drop stool</command>
+        <result xml:space="preserve">You quietly place down the stool.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1890"></child>
+        </children>
+    </item>
+    <item nodeId="node-1890">
+        <command xml:space="preserve">stand on stool</command>
+        <result xml:space="preserve">You get onto Wooden stool.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1891"></child>
+        </children>
+    </item>
+    <item nodeId="node-1891">
+        <command xml:space="preserve">take cookies</command>
+        <result xml:space="preserve">You reach up safely feel the crumbly, soft, mouth watering, delicious cookies. Nothing could have made this day better!
 
 
 
@@ -2346,13 +3638,14 @@ You unlock Orange door.
         <result xml:space="preserve">(first opening Orange door)
 
 Hallway
-There are hallway windows on the side of the Hallway opposite of your door illumanting the objects in the room.  There's a small wooden stool grandma stands on to clean the windows since they're to tall for her.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandmas door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
+There are hallway windows on the side of the Hallway opposite of your door illuminating the objects in the room.  There's a small wooden stool grandma stands on to clean the windows since they're too tall for her.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandma's door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
 
 You can see Orange door, Wooden stool, Lamp and Medals here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
-        <children><child nodeId="node-1229"></child>
+        <children><child nodeId="node-1896"></child>
+            <child nodeId="node-1229"></child>
         </children>
     </item>
     <item nodeId="node-1229">
@@ -2381,6 +3674,83 @@ You can see Orange door, Wooden stool, Lamp and Medals here.
     <item nodeId="node-1231">
         <command xml:space="preserve">climb on stool</command>
         <result xml:space="preserve">You get onto Wooden stool.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+    </item>
+    <item nodeId="node-1896">
+        <command xml:space="preserve">s</command>
+        <result xml:space="preserve">
+Grandmas entrance
+Still part of the hallway you see  the silhouette of a wrench lying against the wall on the ground on the corner between the end of the line of hallway windows and  grandmas door. There is also a spare bell for the broken bike horn in your room and a rubber duck on the floor. The cat likes to play with pretty loud toys.
+
+You can see a wrench, Spare bell and Rubber duck here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1897"></child>
+        </children>
+    </item>
+    <item nodeId="node-1897">
+        <command xml:space="preserve">take wrench</command>
+        <result xml:space="preserve">Taken.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1898"></child>
+        </children>
+    </item>
+    <item nodeId="node-1898">
+        <command xml:space="preserve">n</command>
+        <result xml:space="preserve">
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illuminating the objects in the room.  There's a small wooden stool grandma stands on to clean the windows since they're too tall for her.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandma's door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
+
+You can see Orange door, Wooden stool, Lamp and Medals here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1899"></child>
+        </children>
+    </item>
+    <item nodeId="node-1899">
+        <command xml:space="preserve">e</command>
+        <result xml:space="preserve">
+Bedroom
+Completely dark, you lie on your bed. The wall across from you has an orange door. To your left is a bedside table  with a stapler on it.   There is also a broken bike horn.   Some records lie in the corner next to the window.  You can feel the despair in the room taking shape as an imaginary cookie that is out of reach. 
+
+You can see Orange door, Window, Stapler, Broken bike horn, Despair and Records here.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1900"></child>
+        </children>
+    </item>
+    <item nodeId="node-1900">
+        <command xml:space="preserve">crank window open</command>
+        <result xml:space="preserve">What do you want to crank Window open with?
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1901"></child>
+        </children>
+    </item>
+    <item nodeId="node-1901">
+        <command xml:space="preserve">wrench</command>
+        <result xml:space="preserve">You unlock Window.
+
+&gt;</result>
+        <commentary xml:space="preserve"></commentary>
+        <children><child nodeId="node-1902"></child>
+        </children>
+    </item>
+    <item nodeId="node-1902">
+        <command xml:space="preserve">w</command>
+        <result xml:space="preserve">
+Hallway
+There are hallway windows on the side of the Hallway opposite of your door illuminating the objects in the room.  There's a small wooden stool grandma stands on to clean the windows since they're too tall for her.  There's some old medals hanging on the wall by the bedroom door. Underneath the medals there is a table with a lamp. South of here the hallway extends to grandma's door. You also see the Hallway door which leads to the stairs, leading down to the kitchen!
+
+You can see Orange door, Wooden stool, Lamp and Medals here.
 
 &gt;</result>
         <commentary xml:space="preserve"></commentary>
