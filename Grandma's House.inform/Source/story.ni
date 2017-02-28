@@ -56,6 +56,7 @@ Understand "door" as orange.
 
 Spare unlocks orange. Spare is in bedroom. The printed name of spare is "spare key". Spare is undescribed. 
 Understand "spare key" as Spare.
+Understand "key" as spare.
 
 
 Instead of attacking records:
@@ -147,7 +148,7 @@ Instead of going down:
 			say "You swing down the outside of the house, feeling the cool night breeze softly landing on the grass outside.";
 			now player is in Landing zone;
 		otherwise:
-			say "You're gona kill yourself kid! Haven't you seen the movies, at least make a homemade rope out of the sheets and slide down on that.".
+			say "You're gona kill yourself kid! Haven't you seen the movies, at least make a homemade rope out of the sheets with the combine command, and then slide down on that.".
 		
 		
 [Next rooms:]
