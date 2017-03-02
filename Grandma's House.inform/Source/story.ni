@@ -66,7 +66,7 @@ Understand "key" as spare.
 
 
 Instead of attacking records:
-	say "You shater the record on your bed and quickly clean up all the peices except for one large one which you keep to protect you from the bugs. You should be carefully, thankfully the walls kept you safe, but if you had done something this loud in the hallway, grandma would have waken up.";
+	say "You shater the record on your bed and quickly clean up all the peices except for one large one which you keep to protect you from the bugs. You should be careful, thankfully the walls kept you safe, but if you had done something this loud in the hallway, grandma would have waken up.";
 	remove records from play;
 	now player has broken disk.
 	
@@ -155,7 +155,16 @@ Instead of going down:
 			now player is in Landing zone;
 		otherwise:
 			say "You're gonna kill yourself kid! Haven't you seen the movies, at least make a homemade rope out of the sheets with the combine command, and then slide down on that.".
-		
+
+Instead of entering glass:
+	if Glass is closed:
+		say "You got to open the window before you can get down there!";
+	otherwise:
+		if Homemade rope is in bedroom:
+			say "You swing down the outside of the house, feeling the cool night breeze softly landing on the grass outside.";
+			now player is in Landing zone;
+		otherwise:
+			say "You're gonna kill yourself kid! Haven't you seen the movies, at least make a homemade rope out of the sheets with the combine command, and then slide down on that.".
 		
 [Next rooms:]
 
